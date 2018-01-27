@@ -1,12 +1,4 @@
 
-# Todo for app
-       
-        # add my name and links
-        # make prettier
-                # center title?
-                # control fonts and color of background
-# write blog post
-# publish app on shiny
 
 library(shiny)
 library(plotly)
