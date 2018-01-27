@@ -201,9 +201,13 @@ mapcolors <- c("#808080",get_palette(c("#b2182b","#2166ac"), 5))
 
 ```
 
+<<<<<<< HEAD
 Make the `plotly` - based map for use in a `shiny` app.  
 
 The full `shiny` app code, including code for the `datatable` section of the app, can be found in the `app.R` file in [this GitHub repo](https://github.com/JListman/Scrape_WomenRunning_CAWP).
+=======
+Make `plotly` - based map for use in a `shiny` app. Full `shiny` app can be found in [this github repo](https://github.com/JListman/Scrape_WomenRunning_CAWP).
+>>>>>>> c4bf26ca10b1a4de46ffc6ea465ae2b568cbc42a
 
 ```{r plot_map}
  y_Axis <- list(title = "",
