@@ -1,0 +1,231 @@
+---
+title: "ScrapeCandidates"
+author: "Jenny"
+date: "1/26/2018"
+output: github_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+This project was created with data scraped from the website of the [Center for American Women in Politics](http://www.cawp.rutgers.edu) at [Rutgers University](https://www.rutgers.edu). The Center conducts research on women's participation in politics in America and maintains [a list](http://cawp.rutgers.edu/buzz-2018-potential-women-candidates-us-congress-and-statewide-elected-executive) of women who are or potentially will be running for US Congress and State offices.
+
+The code scrapes and combines data from their lists of women candidates, creates new variables, and visualizes the data in an interactive `shiny` map and searchable data table using `plotly` and `DT` packages .
+
+Load packages needed:
+
+```{r load_packages, results = 'hide', message=FALSE}
+library(rvest)
+library(tidyverse)
+library(janitor)
+library(shiny)
+library(plotly)
+library(filesstrings)
+library(zoo)
+library(ggpubr)
+library(DT)
+
+```
+
+To turn the website into data:  
+1. Specify the url for website with tables to be scraped.  
+2. Read HTML with `xml2::read_html`.  
+3. Get HTML nodes with `rvest::html_nodes` and  
+4. parse table contents into dataframes with `rvest::html_table`.  
+
+Viewing the tables we've got a list with 2 elements corresponding to 2 of the 3 tables on the website. Looking at the website, we can see that candidate_tables[[1]] corresponds to special elections and candidate_tables[[2]] corresponds to general elections. *This website has changed its format recently, so the number of tables has to be varified before updating app.*
+
+```{r scrape_data, results = "hide"}
+
+url <- 'http://cawp.rutgers.edu/buzz-2018-potential-women-candidates-us-congress-and-statewide-elected-executive'
+
+webpage <- read_html(url)
+
+candidate_tables <- webpage %>%
+        html_nodes("table") %>%
+        html_table(fill = TRUE)
+```
+
+The special elections and general elections dataframes are formatted differently, so must be made compatible before combining. Change Dist. variable from numeric in the special elections table to character to match the general elections table. Use `janitor::clean_names` to remove spaces and special characters from variable names.
+
+```{r}
+special_elec <- candidate_tables[[1]] %>%
+        mutate(Dist. = as.character(Dist.)) %>% 
+        mutate(Dist. = replace(Dist., Dist. == "8", "08")) %>% 
+        clean_names() 
+
+```
+
+Combine the special elections and general elections dataframes and then clean things up. First rename one variable that has different names in each of these dataframes.
+
+On the website, state abbreviation appears once, one row above all entries for a given state. Spaces below it are blank, until the next state. Use `zoo::na.locf` to replace blanks below a state abbreviation with the abbreviation above it and when a new state abbreviation starts, the next set of blanks are replaced with that state, etc. In order for this function to work, the blanks first need to be changed to `NA`.
+
+Remove special characters (candidates with special circumstances have * after office title) with `filesstrings::trim_anything` and remove all blank rows.
+```{r make_data, results = "hide", message=FALSE}
+
+cols <- c(1,5)
+
+elections <- candidate_tables[[2]] %>%
+        clean_names() %>%
+        rename(seat_status = general_seat) %>%
+        bind_rows(special_elec) %>%
+        mutate(state = replace(state, state == "", NA)) %>%
+        transform(state = na.locf(state)) %>%
+        subset(office != "") %>% 
+        mutate(office = trim_anything(office, "*", "right")) %>%
+        mutate_each(funs(factor(.)),cols)
+
+```
+
+Rename offices from abbreviations to full names. Some are not self-explanatory in their current state. In addition, some offices have more than one name/spelling/punctuation formatting (Comp, Comp., Comtr.) or have been misspelled.
+```{r fix_variable, results = "hide"}
+elections$office <- fct_recode(elections$office,
+                   `Commissioner of Agriculture` = "Agriculture",
+                   `Attorney General` = "At. Gen.",
+                   `Attorney General`= "Atty. Gen.",
+                   Auditor =  "Auditor",
+                   `Chief Financial Officer` = "CFO",
+                   `Commissioner of Agriculture` = "Comm. Agri.",
+                   Comptroller = "Comp",
+                   Comptroller = "Comp.",
+                   Comptroller = "Comptr.",
+                   Governor = "Govenor",
+                   Governor = "Governor",
+                   `Insurance Commissioner` = "Insurance Comm.",
+                   `Land Commissioner` = "Land",
+                   `Land Commissioner` = "Land Comm.",
+                   `Lieutenant Governor` = "Lt. Gov.",
+                   `Railroad Commissioner` = "Rail. Comm.",
+                   `Superintendent of Public Instruction` = "S.P.I.",
+                   `Secretary of State` = "Sec. St.",
+                   `State Treasurer` = "St. Treas.",
+                   `US Delegate` = "U.S. Del",
+                   `US Delegate` = "U.S. Del.",
+                   `US Congressional Representative` = "U.S. Rep",
+                   `US Congressional Representative` = "U.S. Rep.",
+                   `US Congressional Senator` = "U.S. Sen.")     
+```
+
+Candidate name and party affiliation are a single character variable. Separate these into two variables using `filestrings::str_elem` and `base::trimws`.  
+Some candidates in Minnesota have party listed as DFL. According to [Wikkepedia](https://en.wikipedia.org/wiki/Minnesota_Democratic–Farmer–Labor_Party): Minnesota Democratic–Farmer–Labor Party (DFL) is a social liberal political party in Minnesota affiliated with the Democratic Party. 
+
+Recode these candidates as Democrats.  Non-states that elect US Delegates and states with a small population that have one Federal Representative are listed as having district "AL", to mean At-Large. Change district "AL" to "At-Large". State-level offices have blanks for district variable. Change these to "State".
+
+```{r clean_strings, results = "hide"}
+elections <- elections %>%
+        mutate(party = str_elem(candidate_name_party, -2)) %>%
+        mutate(party = replace(party, party == "L", "D")) %>% 
+        mutate(party = as.factor(party)) %>%
+        mutate(candidate = trimws(str_before_first(candidate_name_party,"\\("), "right")) %>%
+        mutate(dist = replace(dist, dist == "", "State")) %>% 
+        mutate(dist = replace(dist, dist == "AL", "At-Large")) %>%
+        mutate(dist = as.factor(dist)) %>%
+        droplevels()
+
+```
+
+Make new variables for mapping and other possible visualizations: # of women running in each state, # and % running as Republican, # and % running as Democrat, # running for a given office. Some states or territories have no women running at this time. Combine dataframe with a list of all state names and abbreviations to add missing states as rows with values "NA". Remove states with no state abbreviation, since those are territories that won't show up on the statebins map. Capitalize variable names that will be included in the datatable app.
+```{r make_variables, results = "hide"}
+
+statenames <- read.csv("StateNamesAbbrevPostalCode.csv")
+
+elections <- elections %>%
+        add_count(state) %>%
+        rename("Women Running" = n) %>%
+        add_count(state, office) %>%
+        rename(officeperstate = n) %>% 
+        add_count(state, party) %>%
+        rename(partyperstate = n) %>%
+        add_count(state, office, dist) %>%
+        rename(officeperdist = n) %>%
+        merge(statenames, by.x = "state", by.y = "Postal.Code", all = TRUE) %>%
+        mutate(percentparty = round(100*(partyperstate/`Women Running`), digits = 0)) %>%
+        mutate(percentdem = ifelse(party == "D", percentparty, 100-percentparty)) %>%
+        mutate(percentrepub = 100-percentdem) %>%
+        subset(!(Abbreviation %in% c("","Guam"))) %>%
+        rename(Office = office,Candidate = candidate,Party = party, District = dist)
+      
+```
+
+Make data for map:  Get a subset of variables and remove duplicates so there is only one row per state. Rename variables to be readable for hover text on map. Change abbreviation (state) and full name (State) from factor to character and change `NA` to 0 for hover text info.
+```{r make_mapdata, results = "hide"}
+
+statedata <- elections[,c(1,11,15,18,19)] %>%
+        unique() %>%
+        rename("Percent Democrat" = "percentdem") %>%
+        rename("Percent Republican" = "percentrepub") %>%
+        mutate(state = as.character(state)) %>%
+        mutate(State = as.character(State)) %>%
+        mutate_all(funs(replace(., is.na(.), 0)))
+
+```
+
+To change continuous dempercent variable to categorical for mapping, bin and label it. Currently, `statebins` does not work well with `plotly`, so will result in a non-interactive map. To get around that, based on code from [Kenton Russell](http://bl.ocks.org/timelyportfolio/1cce2d1190460a7f1406945bdc02f4e1) combine with `statebins` coordinates data `statebins:::state_coords` with dataframe to make `plotly` map with interactive hover info.  
+
+Rearrange column order to create hover text variable that will be made with `Map:Reduce`.  `statebins` places Alaska in the bottom left of the plot, next to Hawaii. Intuitively, it should be placed in the upper left. Change Alaska row = 1 in dataframe to move it.
+
+Save file.
+
+```{r complete_mapdata, results = "hide"}
+breaks <- c(0,20,40,60,80,100)
+
+labels <- c("1-20% Dem", "21-40% Dem", "41-60% Dem", "61-80% Dem", "81-100% Dem")
+
+statedata <- statedata %>%
+        mutate(bins = cut(statedata$`Percent Democrat`, breaks, 
+                          include.lowest = T, right=FALSE, labels = labels)) %>%
+        mutate(bins = as.character(bins)) %>%
+        mutate(bins = as.factor(ifelse(`Women Running` == 0, "0 Women Running", bins))) %>%
+        merge(statebins:::state_coords[,-2], by.x = "state", by.y = "abbrev") %>%
+        .[,c(3,2,4,5,1,6:8)] 
+
+vars <- Map(
+        function(x, y) paste0(x, ": ", y),
+        names(statedata)[1:(ncol(statedata)-4)],
+        statedata[,1:(ncol(statedata)-4)]
+)
+
+statedata <- statedata %>%
+        mutate(txt = Reduce(function(x, y) paste0(x, "<br />", y), vars))
+
+statedata[1,8] <- 1
+
+```
+
+Make color palette with gray to reperesent states with no women currently running and 5 colors ranging from red to blue to represent the bins for percent Democrat/Republican among women candidates per state.
+```{r map_colors, results = "hide"}
+mapcolors <- c("#808080",get_palette(c("#b2182b","#2166ac"), 5))
+
+```
+
+Make `plotly` - based map for use in a `shiny` app. Full `shiny` app can be found in this github repo.
+
+```{r plot_map}
+ y_Axis <- list(
+                        title = "", 
+                        zeroline = FALSE,
+                        showline = FALSE, 
+                        showticklabels = FALSE, 
+                        showgrid = FALSE
+                )
+                
+                x_Axis <- list(
+                        title = "Hover Over State for Details", 
+                        zeroline = FALSE,
+                        showline = FALSE, 
+                        showticklabels = FALSE, 
+                        showgrid = FALSE
+                )
+                
+plot_ly(statedata, x = ~col, y = ~-row) %>%
+        add_markers(color = ~bins,
+                    colors = mapcolors,
+                    text = ~txt,
+                    symbol = I("square"),
+                    size = I(35),
+                    hoverinfo = "text"
+                    ) %>%
+        add_text(text = ~state, color = I("white"), hoverinfo = "none") %>%
+        layout(showlegend = TRUE, xaxis = x_Axis, yaxis = y_Axis)
+                
+```

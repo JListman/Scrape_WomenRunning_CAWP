@@ -1,0 +1,626 @@
+state,Office,District,candidate_name_party,seat_status,filing_date,primary_date,election_date,Party,Candidate,Women Running,officeperstate,partyperstate,officeperdist,State,Abbreviation,percentparty,percentdem,percentrepub
+AK,Lieutenant Governor,State,Lynn Gattis (R),C,6/1/2018,8/21/2018,11/6/2018,R,Lynn Gattis,2,2,2,2,Alaska,Alaska,100,0,100
+AK,Lieutenant Governor,State,Edie Grunwald (R),C,6/1/2018,8/21/2018,11/6/2018,R,Edie Grunwald,2,2,2,2,Alaska,Alaska,100,0,100
+AL,Governor,State,Kay Ivey (R),I,2/9/2018,6/5/2018,11/6/2018,R,Kay Ivey,9,2,5,2,Alabama,Ala.,56,44,56
+AL,Governor,State,Sue Bell Cobb (D),C,2/9/2018,6/5/2018,11/6/2018,D,Sue Bell Cobb,9,2,4,2,Alabama,Ala.,44,44,56
+AL,Lieutenant Governor,State,Mary Scott Hunter (R),O,2/9/2018,6/5/2018,11/6/2018,R,Mary Scott Hunter,9,2,5,2,Alabama,Ala.,56,44,56
+AL,Lieutenant Governor,State,Twinkle A. Cavanaugh (R),O,2/9/2018,6/5/2018,11/6/2018,R,Twinkle A. Cavanaugh,9,2,5,2,Alabama,Ala.,56,44,56
+AL,Attorney General,State,Alice Martin (R),C,2/9/2018,6/5/2018,11/6/2018,R,Alice Martin,9,1,5,1,Alabama,Ala.,56,44,56
+AL,US Congressional Representative,02,Martha Roby (R),I,2/9/2018,6/5/2018,11/6/2018,R,Martha Roby,9,4,5,3,Alabama,Ala.,56,44,56
+AL,US Congressional Representative,02,Audri Scott Williams (D),C,2/9/2018,6/5/2018,11/6/2018,D,Audri Scott Williams,9,4,4,3,Alabama,Ala.,44,44,56
+AL,US Congressional Representative,02,Tabitha Kay Isner (D),C,2/9/2018,6/5/2018,11/6/2018,D,Tabitha Kay Isner,9,4,4,3,Alabama,Ala.,44,44,56
+AL,US Congressional Representative,07,Terri A. Sewell (D),I,2/9/2018,6/5/2018,11/6/2018,D,Terri A. Sewell,9,4,4,1,Alabama,Ala.,44,44,56
+AR,Governor,State,Jan Morgan (R),CP,3/1/2018,5/22/2018,11/6/2018,R,Jan Morgan,7,1,4,1,Arkansas,Ark.,57,43,57
+AR,Attorney General,State,Leslie Rutledge (R),I,3/1/2018,5/22/2018,11/6/2018,R,Leslie Rutledge,7,1,4,1,Arkansas,Ark.,57,43,57
+AR,Secretary of State,State,Susan Inman (D),O,3/1/2018,5/22/2018,11/6/2018,D,Susan Inman,7,1,3,1,Arkansas,Ark.,43,43,57
+AR,Auditor,State,Andrea Lea (R),I,3/1/2018,5/22/2018,11/6/2018,R,Andrea Lea,7,1,4,1,Arkansas,Ark.,57,43,57
+AR,Land Commissioner,State,Laurie Rushing (R),O,3/1/2018,5/22/2018,11/6/2018,R,Laurie Rushing,7,1,4,1,Arkansas,Ark.,57,43,57
+AR,US Congressional Representative,02,Gwendolyn Millen Combs (D),C,3/1/2018,5/22/2018,11/6/2018,D,Gwendolyn Millen Combs,7,2,3,1,Arkansas,Ark.,43,43,57
+AR,US Congressional Representative,04,Hayden C. Shamel (D),C,3/1/2018,5/22/2018,11/6/2018,D,Hayden C. Shamel,7,2,3,1,Arkansas,Ark.,43,43,57
+AZ,Secretary of State,State,Michele Reagan (R),I,5/30/2018,8/28/2018,11/6/2018,R,Michele Reagan,25,2,10,2,Arizona,Ariz.,40,60,40
+AZ,Secretary of State,State,Katie Hobbs (D),C,5/30/2018,8/28/2018,11/6/2018,D,Katie Hobbs,25,2,15,2,Arizona,Ariz.,60,60,40
+AZ,Superintendent of Public Instruction,State,Diane Douglas (R),I,5/30/2018,8/28/2018,11/6/2018,R,Diane Douglas,25,2,10,2,Arizona,Ariz.,40,60,40
+AZ,Superintendent of Public Instruction,State,Kathy Hoffman (D),C,5/30/2018,8/28/2018,11/6/2018,D,Kathy Hoffman,25,2,15,2,Arizona,Ariz.,60,60,40
+AZ,US Congressional Senator,State,Kelli Ward (R),O,5/30/2018,8/28/2018,11/6/2018,R,Kelli Ward,25,5,10,5,Arizona,Ariz.,40,60,40
+AZ,US Congressional Senator,State,Deedra Abboud (D),O,5/30/2018,8/28/2018,11/6/2018,D,Deedra Abboud,25,5,15,5,Arizona,Ariz.,60,60,40
+AZ,US Congressional Senator,State,Kyrsten Sinema (D),O,5/30/2018,8/28/2018,11/6/2018,D,Kyrsten Sinema,25,5,15,5,Arizona,Ariz.,60,60,40
+AZ,US Congressional Senator,State,Martha McSally (R),O,5/30/2018,8/28/2018,11/6/2018,R,Martha McSally,25,5,10,5,Arizona,Ariz.,40,60,40
+AZ,US Congressional Senator,State,Michelle M. Griffin (R),O,5/30/2018,8/28/2018,11/6/2018,R,Michelle M. Griffin,25,5,10,5,Arizona,Ariz.,40,60,40
+AZ,US Congressional Representative,01,Tiffany Shedd (R),C,5/30/2018,8/28/2018,11/6/2018,R,Tiffany Shedd,25,16,10,1,Arizona,Ariz.,40,60,40
+AZ,US Congressional Representative,02,Ann L. Kirkpatrick (D),O,5/30/2018,8/28/2018,11/6/2018,D,Ann L. Kirkpatrick,25,16,15,4,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,02,Mary Sally Matiella (D),O,5/30/2018,8/28/2018,11/6/2018,D,Mary Sally Matiella,25,16,15,4,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,02,Barbara Louise Sherry (D),O,5/30/2018,8/28/2018,11/6/2018,D,Barbara Louise Sherry,25,16,15,4,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,02,Lea Marquez Peterson (R),O,5/30/2018,8/28/2018,11/6/2018,R,Lea Marquez Peterson,25,16,10,4,Arizona,Ariz.,40,60,40
+AZ,US Congressional Representative,03,Edna San Miguel (R),C,5/30/2018,8/28/2018,11/6/2018,R,Edna San Miguel,25,16,10,1,Arizona,Ariz.,40,60,40
+AZ,US Congressional Representative,04,Ana Maria Perez(D),C,5/30/2018,8/28/2018,11/6/2018,D,Ana Maria Perez,25,16,15,1,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,05,Joan Greene (D),C,5/30/2018,8/28/2018,11/6/2018,D,Joan Greene,25,16,15,1,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,06,Heather Maura Ross (D),C,5/30/2018,8/28/2018,11/6/2018,D,Heather Maura Ross,25,16,15,2,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,06,Anita Malik (D),C,5/30/2018,8/28/2018,11/6/2018,D,Anita Malik,25,16,15,2,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,07,Catherine Miranda (D),CP,5/30/2018,8/28/2018,11/6/2018,D,Catherine Miranda,25,16,15,1,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,09,Irina Baroness Von Behr (R),C,5/30/2018,8/28/2018,11/6/2018,R,Irina Baroness Von Behr,25,16,10,2,Arizona,Ariz.,40,60,40
+AZ,US Congressional Representative,09,Talia Fuentes (D),CP,5/30/2018,8/28/2018,11/6/2018,D,Talia Fuentes,25,16,15,2,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,08,Brianna Westbrook (D),O,Filed,2/27/2018,4/24/2018,D,Brianna Westbrook ,25,16,15,3,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,08,Hiral Vyas Tipirneni (D),O,Filed,2/27/2018,4/24/2018,D,Hiral Vyas Tipirneni ,25,16,15,3,Arizona,Ariz.,60,60,40
+AZ,US Congressional Representative,08,Debbie Lesko (R),O,Filed,2/27/2018,4/24/2018,R,Debbie Lesko,25,16,10,3,Arizona,Ariz.,40,60,40
+CA,Governor,State,Laura Smith (R),O,3/9/2018,6/5/2018,11/6/2018,R,Laura Smith,55,4,10,4,California,Calif.,18,82,18
+CA,Lieutenant Governor,State,Eleni Kounalakis (D),O,3/9/2018,6/5/2018,11/6/2018,D,Eleni Kounalakis,55,1,45,1,California,Calif.,82,82,18
+CA,Comptroller,State,Betty Yee (D),I,3/9/2018,6/5/2018,11/6/2018,D,Betty Yee,55,1,45,1,California,Calif.,82,82,18
+CA,State Treasurer,State,Fiona Ma (D),O,3/9/2018,6/5/2018,11/6/2018,D,Fiona Ma,55,1,45,1,California,Calif.,82,82,18
+CA,US Congressional Senator,State,Dianne Feinstein (D),I,3/9/2018,6/5/2018,11/6/2018,D,Dianne Feinstein,55,5,45,5,California,Calif.,82,82,18
+CA,US Congressional Senator,State,Caren D. Lancona (R),C,3/9/2018,6/5/2018,11/6/2018,R,Caren D. Lancona,55,5,10,5,California,Calif.,18,82,18
+CA,US Congressional Senator,State,Alison M. Hartson (D),CP,3/9/2018,6/5/2018,11/6/2018,D,Alison M. Hartson,55,5,45,5,California,Calif.,82,82,18
+CA,US Congressional Senator,State,Jazmina Saavedra (R),C,3/9/2018,6/5/2018,11/6/2018,R,Jazmina Saavedra,55,5,10,5,California,Calif.,18,82,18
+CA,US Congressional Senator,State,Eirn Cruz (R),C,3/9/2018,6/5/2018,11/6/2018,R,Eirn Cruz,55,5,10,5,California,Calif.,18,82,18
+CA,US Congressional Representative,01,Jessice Holcombe (D),C,3/9/2018,6/5/2018,11/6/2018,D,Jessice Holcombe,55,43,45,3,California,Calif.,82,82,18
+CA,Governor,State,Delaine Eastin (D),O,3/9/2018,6/5/2018,11/6/2018,D,Delaine Eastin,55,4,45,4,California,Calif.,82,82,18
+CA,Governor,State,Staysi Barth (R),O,3/9/2018,6/5/2018,11/6/2018,R,Staysi Barth,55,4,10,4,California,Calif.,18,82,18
+CA,Governor,State,Yvonne Girard (R),O,3/9/2018,6/5/2018,11/6/2018,R,Yvonne Girard,55,4,10,4,California,Calif.,18,82,18
+CA,US Congressional Representative,04,Roza I. Calderon (D),C,3/9/2018,6/5/2018,11/6/2018,D,Roza I. Calderon,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,04,Jessica Morse (D),C,3/9/2018,6/5/2018,11/6/2018,D,Jessica Morse,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,06,Doris O. Matsui (D),I,3/9/2018,6/5/2018,11/6/2018,D,Doris O. Matsui,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,08,Marge Doyle (D),C,3/9/2018,6/5/2018,11/6/2018,D,Marge Doyle,55,43,45,2,California,Calif.,82,82,18
+CA,US Congressional Representative,08,Rita Ramirez (D),C,3/9/2018,6/5/2018,11/6/2018,D,Rita Ramirez,55,43,45,2,California,Calif.,82,82,18
+CA,US Congressional Representative,10,Dotty Nygard (D),C,3/9/2018,6/5/2018,11/6/2018,D,Dotty Nygard,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,10,Virginia Madueno (D),C,3/9/2018,6/5/2018,11/6/2018,D,Virginia Madueno,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,10,Sue Zwahlen (D),C,3/9/3018,6/5/2018,11/6/2018,D,Sue Zwahlen,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,12,Nancy Pelosi (D),I,3/9/2018,6/5/2018,11/6/2018,D,Nancy Pelosi,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,13,Barbara J. Lee (D),I,3/9/2018,6/5/2018,11/6/2018,D,Barbara J. Lee,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,14,Jackie Speier (D),I,3/9/2018,6/5/2018,11/6/2018,D,Jackie Speier,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,18,Anna G. Eshoo (D),I,3/9/2018,6/5/2018,11/6/2018,D,Anna G. Eshoo,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,19,Zoe Lofgren (D),I,3/9/2018,6/5/2018,11/6/2018,D,Zoe Lofgren,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,22,Mallory Kremer (D),C,3/9/2018,6/5/2018,11/6/2018,D,Mallory Kremer,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,23,Wendy Reed (D),C,3/9/2018,6/5/2018,11/6/2018,D,Wendy Reed,55,43,45,2,California,Calif.,82,82,18
+CA,US Congressional Representative,23,Tatiana Matta (D),C,3/9/2018,6/5/2018,11/6/2018,D,Tatiana Matta,55,43,45,2,California,Calif.,82,82,18
+CA,US Congressional Representative,25,Katherine L. Hill (D),C,3/9/2018,6/5/2018,11/6/2018,D,Katherine L. Hill,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,25,Jess Phoenix (D),C,3/9/2018,6/5/2018,11/6/2018,D,Jess Phoenix,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,25,Diedra M. Greenaway (D),C,3/9/2018,6/5/2018,11/6/2018,D,Diedra M. Greenaway,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,26,Julia Brownley (D),I,3/9/2018,6/5/2018,11/6/2018,D,Julia Brownley,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,27,Judy Chu (D),I,3/9/2018,6/5/2018,11/6/2018,D,Judy Chu,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,32,Grace F. Napolitano (D),I,3/9/2018,6/5/2018,11/6/2018,D,Grace F. Napolitano,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,34,Sandra Mendoza (D),CP,3/9/2018,6/5/2018,11/6/2018,D,Sandra Mendoza,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,35,Norma J. Torres (D),I,3/9/2018,6/5/2018,11/6/2018,D,Norma J. Torres,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,36,Kimberlin Brown Pelzer (R),C,3/9/2018,6/5/2018,11/6/2018,R,Kimberlin Brown Pelzer,55,43,10,1,California,Calif.,18,82,18
+CA,US Congressional Representative,37,Karen R. Bass (D),I,3/9/2018,6/5/2018,11/6/2018,D,Karen R. Bass,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,38,Linda T. Sanchez (D),I,3/9/2018,6/5/2018,11/6/2018,D,Linda T. Sanchez,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,39,Mai-Khanh Tran (D),O,3/9/2018,6/5/2018,11/6/2018,D,Mai-Khanh Tran,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,40,Lucille Roybal-Allard (D),I,3/9/2018,6/5/2018,11/6/2018,D,Lucille Roybal-Allard,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,41,Aja Smith (R),C,3/9/2018,6/5/2018,11/6/2018,R,Aja Smith,55,43,10,1,California,Calif.,18,82,18
+CA,US Congressional Representative,42,Julia C. Peacock (D),C,3/9/2018,6/5/2018,11/6/2018,D,Julia C. Peacock,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,43,Maxine Waters (D),I,3/9/2018,6/5/2018,11/6/2018,D,Maxine Waters,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,44,Nanette Diaz Barragan (D),I,3/9/2018,6/5/2018,11/6/2018,D,Nanette Diaz Barragan,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,45,Mimi Walters (R),I,3/9/2018,6/5/2018,11/6/2018,R,Mimi Walters,55,43,10,2,California,Calif.,18,82,18
+CA,US Congressional Representative,45,Katherine Porter (D),C,3/9/2018,6/5/2018,11/6/2018,D,Katherine Porter,55,43,45,2,California,Calif.,82,82,18
+CA,US Congressional Representative,48,Laura Oatman (D),C,3/9/2018,6/5/2018,11/6/2018,D,Laura Oatman,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,49,Sara Jacobs (D),O,3/9/2018,6/5/2018,11/6/2018,D,Sara Jacobs,55,43,45,2,California,Calif.,82,82,18
+CA,US Congressional Representative,01,Martha Walters (D),C,3/9/2018,6/5/2018,11/6/2018,D,Martha Walters,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,01,Audrey Denney (D),C,3/9/2018,6/5/2018,11/6/2018,D,Audrey Denney,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,04,Regina Bateson (D),C,3/9/2018,6/5/2018,11/6/2018,D,Regina Bateson,55,43,45,3,California,Calif.,82,82,18
+CA,US Congressional Representative,53,Susan A. Davis (D),I,3/9/2018,6/5/2018,11/6/2018,D,Susan A. Davis,55,43,45,1,California,Calif.,82,82,18
+CA,US Congressional Representative,49,Diane L. Harkey (R),O,3/9/2018,6/5/2018,11/6/2018,R,Diane L. Harkey,55,43,10,2,California,Calif.,18,82,18
+CO,Governor,State,Cynthia Coffman (R),O,3/20/2018,6/26/2018,11/6/2018,R,Cynthia Coffman,15,3,4,3,Colorado,Colo.,27,73,27
+CO,Secretary of State,State,Jena Griswold (D),C,3/20/2018,6/26/2018,11/6/2018,D,Jena Griswold,15,1,11,1,Colorado,Colo.,73,73,27
+CO,Governor,State,Cary Kennedy (D),O,3/20/2018,6/26/2018,11/6/2018,D,Cary Kennedy,15,3,11,3,Colorado,Colo.,73,73,27
+CO,State Treasurer,State,Polly Lawrence (R),O,3/20/2018,6/26/2018,11/6/2018,R,Polly Lawrence,15,2,4,2,Colorado,Colo.,27,73,27
+CO,US Congressional Representative,01,Diana L. DeGette (D),I,3/20/2018,6/26/2018,11/6/2018,D,Diana L. DeGette,15,8,11,2,Colorado,Colo.,73,73,27
+CO,Attorney General,State,Amy Padden (D),O,3/20/2018,6/26/2018,11/6/2018,D,Amy Padden,15,1,11,1,Colorado,Colo.,73,73,27
+CO,State Treasurer,State,Brita Horn (R),O,3/20/2018,6/26/2018,11/6/2018,R,Brita Horn,15,2,4,2,Colorado,Colo.,27,73,27
+CO,US Congressional Representative,03,Dianne E. Mitsch Bush (D),C,3/20/2018,6/26/2018,11/6/2018,D,Dianne E. Mitsch Bush,15,8,11,1,Colorado,Colo.,73,73,27
+CO,US Congressional Representative,04,Karen A. McCormick (D),C,3/20/2018,6/26/2018,11/6/2018,D,Karen A. McCormick,15,8,11,1,Colorado,Colo.,73,73,27
+CO,US Congressional Representative,01,Saira Rao (D),CP,3/20/2018,6/26/2018,11/6/2018,D,Saira Rao,15,8,11,2,Colorado,Colo.,73,73,27
+CO,US Congressional Representative,02,Betsy Markey (D),O,3/20/2018,6/26/2018,11/6/2018,D,Betsy Markey,15,8,11,1,Colorado,Colo.,73,73,27
+CO,US Congressional Representative,07,Libby Szabo (R),C,3/20/2018,6/26/2018,11/6/2018,R,Libby Szabo,15,8,4,1,Colorado,Colo.,27,73,27
+CO,Governor,State,Donna Lynne (D),O,3/20/2018,6/26/2018,11/6/2018,D,Donna Lynne,15,3,11,3,Colorado,Colo.,73,73,27
+CO,US Congressional Representative,05,Betty Field (D),C,3/20/2018,6/26/2018,11/6/2018,D,Betty Field,15,8,11,2,Colorado,Colo.,73,73,27
+CO,US Congressional Representative,05,Stephany Rose Spaulding (D),C,3/20/2018,6/26/2018,11/6 2018,D,Stephany Rose Spaulding,15,8,11,2,Colorado,Colo.,73,73,27
+CT,Governor,State,Themis Klarides (R),O,6/12/2018,8/14/2018,11/6/2018,R,Themis Klarides,12,5,3,5,Connecticut,Conn.,25,75,25
+CT,Governor,State,Toni Boucher (R),O,6/12/2018,8/14/2018,11/6/2018,R,Toni Boucher,12,5,3,5,Connecticut,Conn.,25,75,25
+CT,Lieutenant Governor,State,Susan L. Chapman (R),O,6/12/2018,8/14/2018,11/6/2018,R,Susan L. Chapman,12,1,3,1,Connecticut,Conn.,25,75,25
+CT,Governor,State,Jacey Wyatt (D),O,6/12/2018,8/14/2018,11/6/2018,D,Jacey Wyatt,12,5,9,5,Connecticut,Conn.,75,75,25
+CT,Governor,State,Dita Bhargava (D),O,6/12/2018,8/14/2018,11/6/2018,D,Dita Bhargava,12,5,9,5,Connecticut,Conn.,75,75,25
+CT,Governor,State,Lee Whitnum (D),O,6/12/2018,8/14/2018,11/6/2018,D,Lee Whitnum,12,5,9,5,Connecticut,Conn.,75,75,25
+CT,US Congressional Senator,State,Ann-Marie Adams (D),CP,6/12/2018,8/14/2018,11/6/2018,D,Ann-Marie Adams,12,1,9,1,Connecticut,Conn.,75,75,25
+CT,Secretary of State,State,Denise Merrill (D),I,6/12/2018,8/14/2018,11/6/2018,D,Denise Merrill,12,1,9,1,Connecticut,Conn.,75,75,25
+CT,Attorney General,State,Clare Kindall (D),O,6/12/2018,8/14/2018,11/6/2018,D,Clare Kindall,12,1,9,1,Connecticut,Conn.,75,75,25
+CT,State Treasurer,State,Denise Nappier (D),I,6/12/2018,8/14/2018,11/6/2018,D,Denise Nappier,12,1,9,1,Connecticut,Conn.,75,75,25
+CT,US Congressional Representative,03,Rosa L. DeLauro (D),I,6/12/2018,8/14/2018,11/6/2018,D,Rosa L. DeLauro,12,2,9,1,Connecticut,Conn.,75,75,25
+CT,US Congressional Representative,05,Elizabeth H. Esty (D),I,6/12/2018,8/14/2018,11/6/2018,D,Elizabeth H. Esty,12,2,9,1,Connecticut,Conn.,75,75,25
+DC,US Delegate,At-Large,Kim R. Ford (D),C,3/21/2018,6/19/2018,11/6/2018,D,Kim R. Ford,2,2,2,2,District of Columbia,D.C.,100,100,0
+DC,US Delegate,At-Large,Eleanor Holmes Norton (D),I,3/21/2018,6/19/2018,11/6/2018,D,Eleanor Holmes Norton,2,2,2,2,District of Columbia,D.C.,100,100,0
+DE,US Congressional Representative,At-Large,Lisa Blunt Rochester (D),I,7/10/2018,9/6/2018,11/6/2018,D,Lisa Blunt Rochester,1,1,1,1,Delaware,Del.,100,100,0
+FL,Attorney General,State,Dana Young (R),O,6/22/2018,8/28/2018,11/6/2018,R,Dana Young,36,2,15,2,Florida,Fla.,42,58,42
+FL,Governor,State,Usha Jain (R),O,6/22/2018,8/28/2018,11/6/2018,R,Usha Jain,36,3,15,3,Florida,Fla.,42,58,42
+FL,Governor,State,Gwen Graham (D),O,6/22/2018,8/28/2018,11/6/2018,D,Gwen Graham,36,3,21,3,Florida,Fla.,58,58,42
+FL,Governor,State,Kathy Rundle (D),O,6/22/2018,8/28/2018,11/6/2018,D,Kathy Rundle,36,3,21,3,Florida,Fla.,58,58,42
+FL,US Congressional Senator,State,Lateresa A. Jones (R),C,5/4/2018,8/28/2018,11/6/2018,R,Lateresa A. Jones,36,3,15,3,Florida,Fla.,42,58,42
+FL,Attorney General,State,Ashley Moody (R),O,6/22/2018,8/28/2018,11/6/2018,R,Ashley Moody,36,2,15,2,Florida,Fla.,42,58,42
+FL,Commissioner of Agriculture,State,Denise Grimsley (R),O,6/22/2018,8/28/2018,11/6/2018,R,Denise Grimsley,36,1,15,1,Florida,Fla.,42,58,42
+FL,Chief Financial Officer,State,Antoanet Lotova (R),C,6/22/2018,8/28/2018,11/6/2018,R,Antoanet Lotova,36,1,15,1,Florida,Fla.,42,58,42
+FL,US Congressional Representative,04,Monica Paige DePaul (D),C,5/4/2018,8/28/2018,11/6/2018,D,Monica Paige DePaul,36,26,21,1,Florida,Fla.,58,58,42
+FL,US Congressional Representative,06,Nancy E. Soderberg (D),C,6/4/2018,8/28/2018,11/6/2018,D,Nancy E. Soderberg,36,26,21,1,Florida,Fla.,58,58,42
+FL,US Congressional Representative,07,Stephanie Murphy (D),I,5/4/2018,8/28/2018,11/6/2018,D,Stephanie Murphy,36,26,21,2,Florida,Fla.,58,58,42
+FL,US Congressional Representative,07,Vennia Francois (R),C,5/4/2018,8/28/2018,11/6/2018,R,Vennia Francois,36,26,15,2,Florida,Fla.,42,58,42
+FL,US Congressional Representative,08,Dena M. Minning Grayson (D),C,5/4/2018,8/28/2018,11/6/2018,D,Dena M. Minning Grayson,36,26,21,1,Florida,Fla.,58,58,42
+FL,US Congressional Representative,10,Val B. Demings (D),I,5/4/2018,8/28/2018,11/6/2018,D,Val B. Demings,36,26,21,1,Florida,Fla.,58,58,42
+FL,US Congressional Representative,12,Kimberly H. Walker (D),C,5/4/2018,8/28/2018,11/6/2018,D,Kimberly H. Walker,36,26,21,1,Florida,Fla.,58,58,42
+FL,US Congressional Representative,14,Kathy A. Castor (D),I,5/4/2018,8/28/2018,11/6/2018,D,Kathy A. Castor,36,26,21,2,Florida,Fla.,58,58,42
+FL,US Congressional Representative,14,Christine Y. Quinn (R),C,5/4/2018,8/28/2018,11/6/2018,R,Christine Y. Quinn,36,26,15,2,Florida,Fla.,42,58,42
+FL,US Congressional Representative,15,Loretta Miller (R),CP,5/4/2018,8/28/2018,11/6/2018,R,Loretta Miller,36,26,15,1,Florida,Fla.,42,58,42
+FL,US Congressional Representative,17,April J. Freeman (D),C,5/4/2018,8/28/2018,11/6/2018,D,April J. Freeman,36,26,21,1,Florida,Fla.,58,58,42
+FL,US Congressional Representative,18,Pamela Keith (D),C,5/4/2018,8/28/2018,11/6/2018,D,Pamela Keith,36,26,21,2,Florida,Fla.,58,58,42
+FL,US Congressional Representative,18,Lauren Baer (D),C,5/4/2018,8/28/2018,11/6/2018,D,Lauren Baer,36,26,21,2,Florida,Fla.,58,58,42
+FL,US Congressional Representative,21,Lois J. Frankel (D),I,5/4/2018,8/28/2018,11/6/2018,D,Lois J. Frankel,36,26,21,1,Florida,Fla.,58,58,42
+FL,US Congressional Representative,23,Debbie Wasserman Schultz (D),I,5/4/2018,8/28/2018,11/6/2018,D,Debbie Wasserman Schultz,36,26,21,2,Florida,Fla.,58,58,42
+FL,US Congressional Representative,23,Carla A. Spalding (R),C,5/4/2018,8/28/2018,11/6/2018,R,Carla A. Spalding,36,26,15,2,Florida,Fla.,42,58,42
+FL,US Congressional Representative,24,Frederica S. Wilson (D),I,5/4/2018,8/28/2018,11/6/2018,D,Frederica S. Wilson,36,26,21,1,Florida,Fla.,58,58,42
+FL,US Congressional Representative,25,Alina Valdes (D),C,5/4/2018,8/28/2018,11/6/2018,D,Alina Valdes,36,26,21,1,Florida,Fla.,58,58,42
+FL,US Congressional Representative,26,Debbie Mucarsel-Powell (D),C,5/4/2018,8/28/2018,11/6/2018,D,Debbie Mucarsel-Powell,36,26,21,2,Florida,Fla.,58,58,42
+FL,US Congressional Representative,26,Souraya Faas (R),CP,5/4/2018,8/28/2018,11/6/2018,R,Souraya Faas,36,26,15,2,Florida,Fla.,42,58,42
+FL,US Congressional Representative,27,Anitere Flores (R),O,5/4/2018,8/28/2018,11/6/2018,R,Anitere Flores,36,26,15,5,Florida,Fla.,42,58,42
+FL,US Congressional Representative,27,Kristen Rosen Gonzalez (D),O,5/4/2018,8/28/2018,11/6/2018,D,Kristen Rosen Gonzalez,36,26,21,5,Florida,Fla.,58,58,42
+FL,US Congressional Representative,27,Mary Barzee Flores (D),O,5/4/2018,8/28/2018,11/6/2018,D,Mary Barzee Flores,36,26,21,5,Florida,Fla.,58,58,42
+FL,US Congressional Representative,27,Jeanette Nunez (R),O,5/4/2018,8/28/2018,11/6/2018,R,Jeanette Nunez,36,26,15,5,Florida,Fla.,42,58,42
+FL,US Congressional Representative,27,Bettina Rodriguez Aguilera (R),O,5/4/2018,8/28/2018,11/6/2018,R,Bettina Rodriguez Aguilera,36,26,15,5,Florida,Fla.,42,58,42
+FL,US Congressional Senator,State,Tamika Lyles (D),CP,5/4/2018,8/28/2018,11/6/2018,D,Tamika Lyles,36,3,21,3,Florida,Fla.,58,58,42
+FL,US Congressional Senator,State,Marcia Thorne (R),C,5/4/2018,8/28/2018,11/6/2018,R,Marcia Thorne,36,3,15,3,Florida,Fla.,42,58,42
+FL,US Congressional Representative,03,Yvonne Hayes Hinson (D),C,5/4/2018,8/28/2018,11/6/2018,D,Yvonne Hayes Hinson,36,26,21,1,Florida,Fla.,58,58,42
+GA,US Congressional Representative,01,Lisa M. Ring (D),C,3/9/2018,5/22/2018,11/6/2018,D,Lisa M. Ring,12,9,11,2,Georgia,Ga.,92,92,8
+GA,US Congressional Representative,01,Barbara A. Seidman (D),C,3/9/2018,5/22/2018,11/6/2018,D,Barbara A. Seidman,12,9,11,2,Georgia,Ga.,92,92,8
+GA,US Congressional Representative,06,Karen Handel (R),I,3/9/2018,5/22/2018,11/6/2018,R,Karen Handel,12,9,1,1,Georgia,Ga.,8,92,8
+GA,US Congressional Representative,07,Kathleen Allen (D),C,3/9/2018,5/22/2018,11/6/2018,D,Kathleen Allen,12,9,11,3,Georgia,Ga.,92,92,8
+GA,US Congressional Representative,07,Carolyn Bourdeaux (D),C,3/9/2018,5/22/2018,11/6/2018,D,Carolyn Bourdeaux,12,9,11,3,Georgia,Ga.,92,92,8
+GA,US Congressional Representative,07,Melissa Davis (D),C,3/9/2018,5/22/2018,11/6/2018,D,Melissa Davis,12,9,11,3,Georgia,Ga.,92,92,8
+GA,US Congressional Representative,10,Kellie L. Collins (D),C,3/9/2018,5/22/2018,11/6/2018,D,Kellie L. Collins,12,9,11,2,Georgia,Ga.,92,92,8
+GA,US Congressional Representative,10,Chalis Pomeroy Montgonmery (D),C,3/9/2018,5/22/2018,11/6/2018,D,Chalis Pomeroy Montgonmery,12,9,11,2,Georgia,Ga.,92,92,8
+GA,US Congressional Representative,11,Elizabeth N. Webster (D),C,3/9/2018,5/22/2018,11/6/2018,D,Elizabeth N. Webster,12,9,11,1,Georgia,Ga.,92,92,8
+GA,Governor,State,Stacey Abrams (D),O,3/9/2018,5/22/2018,11/6/2018,D,Stacey Abrams,12,2,11,2,Georgia,Ga.,92,92,8
+GA,Governor,State,Stacey Evans (D),O,3/9/2018,5/22/2018,11/6/2018,D,Stacey Evans,12,2,11,2,Georgia,Ga.,92,92,8
+GA,Insurance Commissioner,State,Cindy Zeldin (D),O,3/9/2018,5/22/2018,11/6/2018,D,Cindy Zeldin,12,1,11,1,Georgia,Ga.,92,92,8
+HI,Lieutenant Governor,State,Kim Coco Iwamoto (D),O,6/5/2018,8/11/2018,11/6/2018,D,Kim Coco Iwamoto,8,2,7,2,Hawaii,Hawaii,88,88,12
+HI,US Congressional Senator,State,Mazie K. Hirono (D),I,6/5/2018,8/11/2018,11/6/2018,D,Mazie K. Hirono,8,1,7,1,Hawaii,Hawaii,88,88,12
+HI,US Congressional Representative,01,Donna Mercado Kim (D),O,6/5/2018,8/11/2018,11/6/2018,D,Donna Mercado Kim,8,3,7,1,Hawaii,Hawaii,88,88,12
+HI,US Congressional Representative,02,Tulsi Gabbard (D),I,6/5/2018,8/11/2018,11/6/2018,D,Tulsi Gabbard,8,3,7,2,Hawaii,Hawaii,88,88,12
+HI,US Congressional Representative,02,Sherly F. Campagna (D),CP,6/5/2018,8/11/2018,11/6/2018,D,Sherly F. Campagna,8,3,7,2,Hawaii,Hawaii,88,88,12
+HI,Lieutenant Governor,State,Jill Tokuda (D),O,6/5/2018,8/11/2018,11/6/2018,D,Jill Tokuda,8,2,7,2,Hawaii,Hawaii,88,88,12
+HI,Governor,State,Colleen W. Hanabusa (D),CP,6/5/2018,8/11/2018,11/6/2018,D,Colleen W. Hanabusa,8,2,7,2,Hawaii,Hawaii,88,88,12
+HI,Governor,State,Andria P.L. Tupola (R),C,6/5/2018,8/11/2018,11/6/2018,R,Andria P.L. Tupola,8,2,1,2,Hawaii,Hawaii,12,88,12
+IA,Governor,State,Janet Petersen (D),C,3/16/2018,6/5/2018,11/6/2018,D,Janet Petersen,12,4,9,4,Iowa,Iowa,75,75,25
+IA,Governor,State,Kim Reynolds (R),I,3/16/2018,6/5/2018,11/6/2018,R,Kim Reynolds,12,4,3,4,Iowa,Iowa,25,75,25
+IA,US Congressional Representative,01,Abby Finkenauer (D),C,3/16/2018,6/5/2018,11/6/2018,D,Abby Finkenauer,12,7,9,2,Iowa,Iowa,75,75,25
+IA,Governor,State,Andy H. McGuire (D),C,3/16/2018,6/5/2018,11/6/2018,D,Andy H. McGuire,12,4,9,4,Iowa,Iowa,75,75,25
+IA,Governor,State,Cathy Glasson (D),C,3/16/2018,6/5/2018,11/6/2018,D,Cathy Glasson,12,4,9,4,Iowa,Iowa,75,75,25
+IA,Auditor,State,Mary Mosiman (R),I,3/16/2018,6/5/2018,11/6/2018,R,Mary Mosiman,12,1,3,1,Iowa,Iowa,25,75,25
+IA,US Congressional Representative,03,Theresa A. Greenfield (D),C,3/16/2018,6/5/2018,11/6/2018,D,Theresa A. Greenfield,12,7,9,3,Iowa,Iowa,75,75,25
+IA,US Congressional Representative,04,Leann Jacobsen (D),C,3/16/2018,6/5/2018,11/6/2018,D,Leann Jacobsen,12,7,9,2,Iowa,Iowa,75,75,25
+IA,US Congressional Representative,04,Cyndi Hanson (R),CP,3/16/2018,6/5/2018,11/6/2018,R,Cyndi Hanson,12,7,3,2,Iowa,Iowa,25,75,25
+IA,US Congressional Representative,03,Cindy Axne (D),C,3/16/2018,6/5/2018,11/6/2018,D,Cindy Axne,12,7,9,3,Iowa,Iowa,75,75,25
+IA,US Congressional Representative,03,Heather A. Ryan (D),C,3/16/2018,6/5/2018,11/6/2018,D,Heather A. Ryan,12,7,9,3,Iowa,Iowa,75,75,25
+IA,US Congressional Representative,01,Courtney Rowe (D),C,3/16/2018,6/5/2018,11/6/2018,D,Courtney Rowe,12,7,9,2,Iowa,Iowa,75,75,25
+ID,Lieutenant Governor,State,Janice K. McGeachin (R),O,3/9/2018,5/15/2018,11/6/2018,R,Janice K. McGeachin,7,2,6,2,Idaho,Idaho,86,14,86
+ID,Governor,State,HyDee Liebelt (R),O,3/9/2018,5/15/2018,11/6/2018,R,HyDee Liebelt,7,2,6,2,Idaho,Idaho,86,14,86
+ID,Governor,State,Paulette Jordan (D),O,3/9/2018,5/15/2018,11/6/2018,D,Paulette Jordan,7,2,1,2,Idaho,Idaho,14,14,86
+ID,US Congressional Representative,01,Christy Perry (R),O,3/9/2018,5/15/2018,11/6/2018,R,Christy Perry,7,1,6,1,Idaho,Idaho,86,14,86
+ID,Lieutenant Governor,State,Kelley Packer (R),O,3/9/2018,5/15/2018,11/6/2018,R,Kelley Packer,7,2,6,2,Idaho,Idaho,86,14,86
+ID,State Treasurer,State,Vicky McIntyre (R),O,3/9/2018,5/15/2018,11/6/2018,R,Vicky McIntyre,7,1,6,1,Idaho,Idaho,86,14,86
+ID,Superintendent of Public Instruction,State,Sherri Ybarra (R),I,3/9/2018,5/15/2018,11/6/2018,R,Sherri Ybarra,7,1,6,1,Idaho,Idaho,86,14,86
+IL,Lieutenant Governor,State,Litesa E. Wallace (D),C,Filed,3/20/2018,11/6/2018,D,Litesa E. Wallace,29,4,23,4,Illinois,Ill.,79,79,21
+IL,Lieutenant Governor,State,Patricia Avery (D),C,Filed,3/2012018,11/6/2018,D,Patricia Avery,29,4,23,4,Illinois,Ill.,79,79,21
+IL,Attorney General,State,Erika N.L. Harold (R),O,Filed,3/20/2018,11/6/2018,R,Erika N.L. Harold,29,3,6,3,Illinois,Ill.,21,79,21
+IL,Attorney General,State,Nancy Rotering (D),O,Filed,3/20/2018,11/6/2018,D,Nancy Rotering,29,3,23,3,Illinois,Ill.,79,79,21
+IL,Attorney General,State,Sharon Fairley (D),O,Filed,3/20/2018,11/6/2018,D,Sharon Fairley,29,3,23,3,Illinois,Ill.,79,79,21
+IL,Comptroller,State,Susana Mendoza (D),I,Filed,3/20/2018,11/6/2018,D,Susana Mendoza,29,2,23,2,Illinois,Ill.,79,79,21
+IL,Comptroller,State,Darlene Senger (R),C,Filed,3/20/2018,11/6/2018,R,Darlene Senger,29,2,6,2,Illinois,Ill.,21,79,21
+IL,US Congressional Representative,02,Robin L. Kelly (D),I,Filed,3/20/2018,11/6/2018,D,Robin L. Kelly,29,19,23,1,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,03,Marie Newman (D),CP,Filed,3/20/2018,11/6/2018,D,Marie Newman,29,19,23,1,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,04,Sol Flores (D),O,Filed,3/20/2018,11/6/2018,D,Sol Flores,29,19,23,2,Illinois,Ill.,79,79,21
+IL,Governor,State,Jeanne M. Ives (R),CP,Filed,3/20/2018,11/6/2018,R,Jeanne M. Ives,29,1,6,1,Illinois,Ill.,21,79,21
+IL,Lieutenant Governor,State,Evelyn Sanguinetti (R),I,Filed,3/20/2018,11/6/2018,R,Evelyn Sanguinetti,29,4,6,4,Illinois,Ill.,21,79,21
+IL,Lieutenant Governor,State,Juliana Stratton (D),C,Filed,3/20/2018,11/6/2018,D,Juliana Stratton,29,4,23,4,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,06,Carole Cheney (D),C,Filed,3/20/2018,11/6/2018,D,Carole Cheney,29,19,23,5,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,06,Kelly Mazeski (D),C,Filed,3/20/2018,11/6/2018,D,Kelly Mazeski,29,19,23,5,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,06,Jennifer Zordani (D),C,Filed,3/20/2018,11/6/2018,D,Jennifer Zordani,29,19,23,5,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,06,Becky Anderson Wilkins (D),C,Filed,3/20/2018,11/6/2018,D,Becky Anderson Wilkins,29,19,23,5,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,08,Vandana Jhingan (R),C,Filed,3/20/2018,11/6/2018,R,Vandana Jhingan,29,19,6,1,Illinois,Ill.,21,79,21
+IL,US Congressional Representative,09,Jan D. Schakowsky (D),I,Filed,3/20/2018,11/6/2018,D,Jan D. Schakowsky,29,19,23,1,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,13,Betsy Dirksen Londrigan (D),C,Filed,3/20/2018,11/6/2018,D,Betsy Dirksen Londrigan,29,19,23,2,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,13,Angel Sides (D),C,Filed,3/20/2018,11/6/2018,D,Angel Sides,29,19,23,2,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,14,Lauren A. Underwood (D),C,Filed,3/20/2018,11/6/2018,D,Lauren A. Underwood,29,19,23,1,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,16,Sara Dady (D),C,Filed,3/20/2018,11/6/2018,D,Sara Dady,29,19,23,3,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,16,Amy Murri Briel (D),C,Filed,3/20/2018,11/6/2018,D,Amy Murri Briel,29,19,23,3,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,16,Beth Vercolio-Osmund (D),C,Filed,3/20/2018,11/6/2018,D,Beth Vercolio-Osmund,29,19,23,3,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,17,Cheri L. Bustos (D),I,Filed,3/20/2018,11/6/2018,D,Cheri L. Bustos,29,19,23,1,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,06,Amanda D. Howland (D),C,Filed,3/20/2018,11/6/2018,D,Amanda D. Howland,29,19,23,5,Illinois,Ill.,79,79,21
+IL,US Congressional Representative,04,Ann Melichar (R),O,Filed,3/20/2018,11/6/2018,R,Ann Melichar,29,19,6,2,Illinois,Ill.,21,79,21
+IL,US Congressional Representative,05,Sameena Mustafa (D),CP,Filed,3/20/2018,11/6/2018,D,Sameena Mustafa,29,19,23,1,Illinois,Ill.,79,79,21
+IN,Auditor,State,Tera Klutz (R),I,2/9/2018,5/8/2018,11/6/2018,R,Tera Klutz,11,1,5,1,Indiana,Ind.,45,55,45
+IN,State Treasurer,State,Kelly Mitchell (R),I,2/9/2018,5/8/2018,11/6/2018,R,Kelly Mitchell,11,1,5,1,Indiana,Ind.,45,55,45
+IN,US Congressional Representative,03,Courtney Tritch (D),C,2/9/2018,5/8/2018,11/6/2018,D,Courtney Tritch,11,8,6,1,Indiana,Ind.,55,55,45
+IN,US Congressional Representative,04,Sheryl Shipley (D),O,2/9/2018,5/8/2018,11/6/2018,D,Sheryl Shipley,11,8,6,2,Indiana,Ind.,55,55,45
+IN,US Congressional Representative,02,Jackie Swihart Walorski (R),I,2/9/2018,5/8/2018,11/6/2018,R,Jackie Swihart Walorski,11,8,5,2,Indiana,Ind.,45,55,45
+IN,US Congressional Representative,02,Mary Patricia Hackett (D),C,2/9/2018,5/8/2018,11/6/2018,D,Mary Patricia Hackett,11,8,6,2,Indiana,Ind.,55,55,45
+IN,US Congressional Representative,07,Sue Spicer (D),CP,2/9/2018,5/8/2018,11/6/2018,D,Sue Spicer,11,8,6,1,Indiana,Ind.,55,55,45
+IN,US Congressional Representative,09,Liz Watson (D),C,2/9/2018,5/8/2018,11/6/2018,D,Liz Watson,11,8,6,1,Indiana,Ind.,55,55,45
+IN,US Congressional Representative,04,Tobi Beck (D),O,2/9/2018,5/8/2018,11/6/2018,D,Tobi Beck,11,8,6,2,Indiana,Ind.,55,55,45
+IN,US Congressional Representative,05,Susan W. Brooks (R),I,2/9/2018,5/8/2018,11/6/2018,R,Susan W. Brooks,11,8,5,1,Indiana,Ind.,45,55,45
+IN,Secretary of State,State,Connie Lawson (R),I,2/9/2018,5/8/2018,11/6/2018,R,Connie Lawson,11,1,5,1,Indiana,Ind.,45,55,45
+KS,US Congressional Representative,04,Laura Lombard (D),C,6/1/2018,8/7/2018,11/6/2018,D,Laura Lombard,4,2,3,1,Kansas,Kans.,75,75,25
+KS,Governor,State,Laura Kelly (D),O,6/1/2018,8/7/2018,11/6/2018,D,Laura Kelly,4,1,3,1,Kansas,Kans.,75,75,25
+KS,Secretary of State,State,Marci A. Francisco (D),O,6/1/2018,8/7/2018,11/6/2018,D,Marci A. Francisco,4,1,3,1,Kansas,Kans.,75,75,25
+KS,US Congressional Representative,02,Caryn Tyson (R),O,6/1/2018,8/7/2018,11/6/2018,R,Caryn Tyson,4,2,1,1,Kansas,Kans.,25,75,25
+KY,US Congressional Representative,02,Rane Sessions (D),C,1/30/2018,5/22/2018,11/6/2018,D,Rane Sessions,5,5,5,1,Kentucky,Ky.,100,100,0
+KY,US Congressional Representative,06,Amy McGrath (D),C,1/30/2018,5/22/2018,11/6/2018,D,Amy McGrath,5,5,5,2,Kentucky,Ky.,100,100,0
+KY,US Congressional Representative,04,Christina Lord (D),C,1/30/2018,5/22/2018,11/6/2018,D,Christina Lord,5,5,5,2,Kentucky,Ky.,100,100,0
+KY,US Congressional Representative,04,Patti Piatt (D),C,1/30/2018,5/22/2018,11/6/2018,D,Patti Piatt,5,5,5,2,Kentucky,Ky.,100,100,0
+KY,US Congressional Representative,06,Leslie Combs (D),C,1/30/2018,5/22/2018,11/6/2018,D,Leslie Combs,5,5,5,2,Kentucky,Ky.,100,100,0
+MA,Auditor,State,Suzanne Bump (D),I,6/5/2018,9/18/2018,11/6/2018,D,Suzanne Bump,18,1,14,1,Massachusetts,Mass.,78,78,22
+MA,Governor,State,Kim Driscoll (D),C,6/5/2018,9/18/2018,11/6/2018,D,Kim Driscoll,18,1,14,1,Massachusetts,Mass.,78,78,22
+MA,Lieutenant Governor,State,Karyn Polito (R),I,6/5/2018,9/18/2018,11/6/2018,R,Karyn Polito,18,1,4,1,Massachusetts,Mass.,22,78,22
+MA,Attorney General,State,Maura Healey (D),I,6/5/2018,9/18/2018,11/6/2018,D,Maura Healey,18,1,14,1,Massachusetts,Mass.,78,78,22
+MA,US Congressional Senator,State,Heidi M. Wellman (R),C,6/5/2018,9/18/2018,11/6/2018,R,Heidi M. Wellman,18,3,4,3,Massachusetts,Mass.,22,78,22
+MA,US Congressional Representative,03,Eileen Donoghue (D),O,6/5/2018,9/18/2018,11/6/2018,D,Eileen Donoghue,18,10,14,8,Massachusetts,Mass.,78,78,22
+MA,US Congressional Representative,03,Barbara L'Italien (D),O,6/5/2018,9/18/2018,11/6/2018,D,Barbara L'Italien,18,10,14,8,Massachusetts,Mass.,78,78,22
+MA,US Congressional Representative,03,Sheila Harrington (R),O,6/5/2018,9/18/2018,11/6/2018,R,Sheila Harrington,18,10,4,8,Massachusetts,Mass.,22,78,22
+MA,US Congressional Representative,03,Ellen Meehan (D),O,6/5/2018,9/18/2018,11/6/2018,D,Ellen Meehan,18,10,14,8,Massachusetts,Mass.,78,78,22
+MA,US Congressional Representative,03,Lori Trahan (D),O,6/5/2018,9/18/2018,11/6/2018,D,Lori Trahan,18,10,14,8,Massachusetts,Mass.,78,78,22
+MA,US Congressional Representative,03,Juana B. Matias (D),O,6/5/2018,9/18/2018,11/6/2018,D,Juana B. Matias,18,10,14,8,Massachusetts,Mass.,78,78,22
+MA,US Congressional Representative,03,Alexandra E. Chandler (D),O,6/5/2018,9/18/2018,11/6/2018,D,Alexandra E. Chandler,18,10,14,8,Massachusetts,Mass.,78,78,22
+MA,US Congressional Representative,03,Bopha T. Malone (D),O,6/5/2018,9/18/2018,11/6/2018,D,Bopha T. Malone,18,10,14,8,Massachusetts,Mass.,78,78,22
+MA,US Congressional Representative,05,Katherine M. Clark (D),I,6/5/2018,9/18/2018,11/6/2018,D,Katherine M. Clark,18,10,14,1,Massachusetts,Mass.,78,78,22
+MA,US Congressional Representative,08,Brianna Wu (D),CP,6/5/2018,9/18/2018,11/6/2018,D,Brianna Wu,18,10,14,1,Massachusetts,Mass.,78,78,22
+MA,State Treasurer,State,Deborah Goldberg (D),I,6/5/2018,9/18/2018,11/6/2018,D,Deborah Goldberg,18,1,14,1,Massachusetts,Mass.,78,78,22
+MA,US Congressional Senator,State,Elizabeth A. Warren (D),I,6/5/2018,9/18/2018,11/6/2018,D,Elizabeth A. Warren,18,3,14,3,Massachusetts,Mass.,78,78,22
+MA,US Congressional Senator,State,Beth Lindstrom (R),C,6/5/2018,9/18/2018,11/6/2018,R,Beth Lindstrom,18,3,4,3,Massachusetts,Mass.,22,78,22
+MD,Governor,State,Krishanti Vignarajah (D),C,2/27/2018,6/26/2018,11/6/2018,D,Krishanti Vignarajah,10,1,7,1,Maryland,Md.,70,70,30
+MD,US Congressional Representative,01,Allison Galbraith (D),C,2/27/2018,6/26/2018,11/6/2018,D,Allison Galbraith,10,6,7,1,Maryland,Md.,70,70,30
+MD,US Congressional Representative,04,Thereasa M. Black (D),CP,2/27/2018,6/26/2018,11/6/2018,D,Thereasa M. Black,10,6,7,1,Maryland,Md.,70,70,30
+MD,US Congressional Representative,06,Aruna Miller (D),O,2/27/2018,6/26/2018,11/6/2018,D,Aruna Miller,10,6,7,4,Maryland,Md.,70,70,30
+MD,US Congressional Representative,06,Kelly Schulz (R),O,2/27/2018,6/26/2018,11/6/2018,R,Kelly Schulz,10,6,3,4,Maryland,Md.,30,70,30
+MD,US Congressional Representative,06,Amie Hoeber (R),O,2/27/2018,6/26/2018,11/6/2018,R,Amie Hoeber,10,6,3,4,Maryland,Md.,30,70,30
+MD,US Congressional Representative,06,Nadia Hashimi (D),O,2/27/2018,6/26/2018,11/6/2018,D,Nadia Hashimi,10,6,7,4,Maryland,Md.,70,70,30
+MD,Comptroller,State,Anjali Reed Phukan (R),C,2/27/2018,6/26/2018,11/6/2018,R,Anjali Reed Phukan,10,1,3,1,Maryland,Md.,30,70,30
+MD,US Congressional Senator,State,Debbie F. Wilson (D),CP,2/27/2018,6/26/2018,11/6/2018,D,Debbie F. Wilson,10,2,7,2,Maryland,Md.,70,70,30
+MD,US Congressional Senator,State,Chelsea Manning (D),CP,2/27/2018,6/26/2018,11/6/2018,D,Chelsea Manning,10,2,7,2,Maryland,Md.,70,70,30
+ME,Governor,State,Cynthia Soma-Hernandez (D),O,3/15/2018,6/12/2018,11/6/2018,D,Cynthia Soma-Hernandez,8,7,7,7,Maine,Maine,88,88,12
+ME,Governor,State,Mary Mayhew (R),O,3/15/2018,6/12/2018,11/6/2018,R,Mary Mayhew,8,7,1,7,Maine,Maine,12,88,12
+ME,Governor,State,Janet Mills (D),O,3/15/2018,6/12/2018,11/6/2018,D,Janet Mills,8,7,7,7,Maine,Maine,88,88,12
+ME,Governor,State,Betsy Sweet (D),O,3/15/2018,6/12/2018,11/6/2018,D,Betsy Sweet,8,7,7,7,Maine,Maine,88,88,12
+ME,US Congressional Representative,01,Chellie M. Pingree (D),I,3/15/2018,6/12/2018,11/6/2018,D,Chellie M. Pingree,8,1,7,1,Maine,Maine,88,88,12
+ME,Governor,State,Diane Russell (D),O,3/15/2018,6/12/2018,11/6/2018,D,Diane Russell,8,7,7,7,Maine,Maine,88,88,12
+ME,Governor,State,Chellie Pingree (D),O,3/15/2018,6/12/2018,11/6/2018,D,Chellie Pingree,8,7,7,7,Maine,Maine,88,88,12
+ME,Governor,State,Donna Dion (D),O,3/15/2018,6/12/2018,11/6/2018,D,Donna Dion,8,7,7,7,Maine,Maine,88,88,12
+MI,Governor,State,Gretchen Whitmer (D),O,4/24/2018,8/7/2018,11/6/2018,D,Gretchen Whitmer,15,1,12,1,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,03,Cathy Albro (D),C,4/24/2018,8/7/2018,11/6/2018,D,Cathy Albro,15,11,12,1,Michigan,Mich.,80,80,20
+MI,Secretary of State,State,Jocelyn Benson (D),O,4/24/2018,8/7/2018,11/6/2018,D,Jocelyn Benson,15,1,12,1,Michigan,Mich.,80,80,20
+MI,Attorney General,State,Tonya Schuitmaker (R),O,4/24/2018,8/7/2018,11/6/2018,R,Tonya Schuitmaker,15,1,3,1,Michigan,Mich.,20,80,20
+MI,US Congressional Senator,State,Debbie A. Stabenow (D),I,4/24/2018,8/7/2018,11/6/2018,D,Debbie A. Stabenow,15,1,12,1,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,10,Kimberly Bizon (D),C,4/24/2018,8/7/2018,11/6/2018,D,Kimberly Bizon,15,11,12,1,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,07,Gretchen D. Driskell (D),C,4/24/2018,8/7/2018,11/6/2018,D,Gretchen D. Driskell ,15,11,12,1,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,08,Elissa Slotkin (D),C,4/24/2018,8/7/2018,11/6/2018,D,Elissa Slotkin,15,11,12,1,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,09,Ellen C. Lipton (D),O,4/24/2018,8/7/2018,11/6/2018,D,Ellen C. Lipton,15,11,12,1,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,11,Kristine Bonds (R),O,4/24/2018,8/7/2018,11/6/2018,R,Kristine Bonds,15,11,3,4,Michigan,Mich.,20,80,20
+MI,US Congressional Representative,12,Debbie Dingell (D),I,4/24/2018,8/7/2018,11/6/2018,D,Debbie Dingell,15,11,12,1,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,14,Brenda L. Lawrence (D),I,4/24/2018,8/7/2018,11/6/2018,D,Brenda L. Lawrence,15,11,12,1,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,11,Haley Stevens (D),O,4/24/2018,8/7/2018,11/6/2018,D,Haley Stevens,15,11,12,4,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,11,Fayrouz Saad (D),O,4/24/2018,8/7/2018,11/6/2018,D,Fayrouz Saad,15,11,12,4,Michigan,Mich.,80,80,20
+MI,US Congressional Representative,11,Lena Epstein (R),O,4/24/2018,8/7/2018,11/6/2018,R,Lena Epstein,15,11,3,4,Michigan,Mich.,20,80,20
+MN,Governor,State,Lori Swanson (DFL),O,6/5/2018,8/14/2018,11/6/2018,D,Lori Swanson,19,8,13,8,Minnesota,Minn.,68,68,32
+MN,Governor,State,Tina Liebling (DFL),O,6/5/2018,8/14/2018,11/6/2018,D,Tina Liebling,19,8,13,8,Minnesota,Minn.,68,68,32
+MN,Governor,State,Erin Murphy (DFL),O,6/5/2018,8/14/2018,11/6/2018,D,Erin Murphy,19,8,13,8,Minnesota,Minn.,68,68,32
+MN,Governor,State,Rebecca Otto (DFL),O,6/5/2018,8/14/2018,11/6/2018,D,Rebecca Otto,19,8,13,8,Minnesota,Minn.,68,68,32
+MN,Governor,State,Mary Guiliani Stephens (R),O,6/5/2018,8/14/2018,11/6/2018,R,Mary Guiliani Stephens,19,8,6,8,Minnesota,Minn.,32,68,32
+MN,Governor,State,Jennifer Loon (R),O,6/5/2018,8/14/2018,11/6/2018,R,Jennifer Loon,19,8,6,8,Minnesota,Minn.,32,68,32
+MN,Governor,State,Julie Rosen (R),O,6/5/2018,8/14/2018,11/6/2018,R,Julie Rosen,19,8,6,8,Minnesota,Minn.,32,68,32
+MN,Governor,State,Amy Koch (R),O,6/5/2018,8/14/2018,11/6/2018,R,Amy Koch,19,8,6,8,Minnesota,Minn.,32,68,32
+MN,US Congressional Senator,State,Tina Smith (DFL),I,6/5/2018,8/14/2018,11/6/2018,D,Tina Smith,19,3,13,3,Minnesota,Minn.,68,68,32
+MN,US Congressional Senator,State,Karin Housley (R),C,6/5/2018,8/14/2018,11/6/2018,R,Karin Housley,19,3,6,3,Minnesota,Minn.,32,68,32
+MN,US Congressional Representative,01,Carla Nelson (R),O,6/5/2018,8/14/2018,11/6/2018,R,Carla Nelson,19,6,6,2,Minnesota,Minn.,32,68,32
+MN,US Congressional Representative,01,Vicki Jensen (DFL),O,6/5/2018,8/14/2018,11/6/2018,D,Vicki Jensen ,19,6,13,2,Minnesota,Minn.,68,68,32
+MN,US Congressional Representative,02,Angela Craig (DFL),C,6/5/2018,8/14/2018,11/6/2018,D,Angela Craig,19,6,13,1,Minnesota,Minn.,68,68,32
+MN,US Congressional Representative,03,Alicia Donahue (DFL),C,6/5/2018,8/14/2018,11/6/2018,D,Alicia Donahue,19,6,13,1,Minnesota,Minn.,68,68,32
+MN,US Congressional Representative,04,Betty McCollum (DFL),I,6/5/2018,8/14/2018,11/6/2018,D,Betty McCollum,19,6,13,1,Minnesota,Minn.,68,68,32
+MN,US Congressional Representative,08,Leah Philfer (DFL),CP,6/5/2018,8/14/2018,11/6/2018,D,Leah Philfer,19,6,13,1,Minnesota,Minn.,68,68,32
+MN,US Congressional Senator,State,Amy Klobuchar (DFL),I,6/5/2018,8/14/2018,11/6/2018,D,Amy Klobuchar,19,3,13,3,Minnesota,Minn.,68,68,32
+MN,Attorney General,State,Lori Swanson (DFL),I,6/5/2018,8/14/2018,11/6/2018,D,Lori Swanson,19,2,13,2,Minnesota,Minn.,68,68,32
+MN,Attorney General,State,Debra Hilstrom (DFL),CP,6/5/2018,8/14/2018,11/6/2018,D,Debra Hilstrom,19,2,13,2,Minnesota,Minn.,68,68,32
+MO,US Congressional Senator,State,Claire McCaskill (D),I,3/27/2018,8/7/2018,11/6/2018,D,Claire McCaskill,14,3,10,3,Missouri,Mo.,71,71,29
+MO,Auditor,State,Nicole Galloway (D),I,3/27/2018,8/7/2018,11/6/2018,D,Nicole Galloway,14,1,10,1,Missouri,Mo.,71,71,29
+MO,US Congressional Representative,01,Cori Bush (D),CP,3/27/2018,8/7/2018,11/6/2018,D,Cori Bush,14,10,10,2,Missouri,Mo.,71,71,29
+MO,US Congressional Representative,02,Ann L. Wagner (R),I,3/27/2018,8/7/2018,11/6/2018,R,Ann L. Wagner,14,10,4,2,Missouri,Mo.,29,71,29
+MO,US Congressional Representative,02,Kelli L. Dunaway (D),C,3/27/2018,8/7/2018,11/6/2018,D,Kelli L. Dunaway,14,10,10,2,Missouri,Mo.,71,71,29
+MO,US Congressional Representative,03,Katy Geppert (D),C,3/27/2018,8/7/2018,11/6/2018,D,Katy Geppert,14,10,10,1,Missouri,Mo.,71,71,29
+MO,US Congressional Representative,04,Vicky Jo Hartzler (R),I,3/27/2018,8/7/2018,11/6/2018,R,Vicky Jo Hartzler,14,10,4,3,Missouri,Mo.,29,71,29
+MO,US Congressional Representative,04,Suzanne Renee Hoagenson (D),C,3/27/2018,8/7/2018,11/6/2018,D,Suzanne Renee Hoagenson,14,10,10,3,Missouri,Mo.,71,71,29
+MO,US Congressional Representative,04,Jenne M. Bourgeois (R),C,3/27/2018,8/7/2018,11/6/2018,R,Jenne M. Bourgeois,14,10,4,3,Missouri,Mo.,29,71,29
+MO,US Congressional Representative,06,Jenna Squires (D),C,3/27/2018,8/7/2018,11/6/2018,D,Jenna Squires,14,10,10,1,Missouri,Mo.,71,71,29
+MO,US Congressional Representative,08,Kathryn Ellis (D),C,3/27/2018,8/7/2018,11/6/2018,D,Kathryn Ellis,14,10,10,1,Missouri,Mo.,71,71,29
+MO,US Congressional Senator,State,Marsha Haefner (R),C,3/27/2018,8/7/2018,11/6/2018,R,Marsha Haefner,14,3,4,3,Missouri,Mo.,29,71,29
+MO,US Congressional Senator,State,Angelica Earl (D),CP,3/27/2018,8/7/2018,11/6/2018,D,Angelica Earl,14,3,10,3,Missouri,Mo.,71,71,29
+MO,US Congressional Representative,01,Susan Bolhafner (D),CP,3/27/2018,8/7/2018,11/6/2018,D,Susan Bolhafner,14,10,10,2,Missouri,Mo.,71,71,29
+MS,State Treasurer,State,Lynn Fitch (R),I,3/1/2018,6/5/2018,11/6/2018,R,Lynn Fitch,4,1,4,1,Mississippi,Miss.,100,0,100
+MS,US Congressional Representative,03,Margan Dunn (R),O,3/1/2018,6/5/2018,11/6/2018,R,Margan Dunn,4,1,4,1,Mississippi,Miss.,100,0,100
+MS,Commissioner of Agriculture,State,Cindy Hyde-Smith (R),I,3/1/2018,6/5/2018,11/6/2018,R,Cindy Hyde-Smith,4,1,4,1,Mississippi,Miss.,100,0,100
+MS,U.S Rep.,03,Sally B. Doty (R),O,3/1/2018,6/5/2018,11/6/2018,R,Sally B. Doty,4,1,4,1,Mississippi,Miss.,100,0,100
+MT,US Congressional Representative,At-Large,Amanda Curtis (D),D,3/12/2018,6/5/2018,11/6/2018,D,Amanda Curtis,4,3,4,3,Montana,Mont.,100,100,0
+MT,US Congressional Representative,At-Large,Lynda Bourque Moss (D),C,3/12/2018,6/5/2018,11/6/2018,D,Lynda Bourque Moss,4,3,4,3,Montana,Mont.,100,100,0
+MT,US Congressional Senator,State,Sarah A. Dean (D),CP,3/12/2018,6/5/2018,11/6/2018,D,Sarah A. Dean,4,1,4,1,Montana,Mont.,100,100,0
+MT,US Congressional Representative,At-Large,Kathleen Williams (D),C,3/12/2018,6/5/2018,11/6/2018,D,Kathleen Williams,4,3,4,3,Montana,Mont.,100,100,0
+NC,US Congressional Representative,04,Lee Andrea Brian (R),C,2/28/2018,5/8/2018,11/6/2018,R,Lee Andrea Brian,10,10,2,1,North Carolina,N.C.,20,80,20
+NC,US Congressional Representative,02,Wendy Ella May (D),C,2/28/2018,5/8/2018,11/6/2018,D,Wendy Ella May,10,10,8,2,North Carolina,N.C.,80,80,20
+NC,US Congressional Representative,02,Linda D. Coleman (D),C,2/28/2018,5/8/2018,11/6/2018,D,Linda D. Coleman,10,10,8,2,North Carolina,N.C.,80,80,20
+NC,US Congressional Representative,07,Kyle Horton (D),C,2/28/2018,5/8/2018,11/6/2018,D,Kyle Horton,10,10,8,1,North Carolina,N.C.,80,80,20
+NC,US Congressional Representative,05,Virginia A. Foxx (R),I,2/28/2018,5/8/2018,11/6/2018,R,Virginia A. Foxx,10,10,2,3,North Carolina,N.C.,20,80,20
+NC,US Congressional Representative,05,Denise Darcel Adams (D),C,2/28/2018,5/8/2018,11/6/2018,D,Denise Darcel Adams,10,10,8,3,North Carolina,N.C.,80,80,20
+NC,US Congressional Representative,05,Jennifer Marshall (D),C,2/28/2018,5/8/2018,11/6/2018,D,Jennifer Marshall,10,10,8,3,North Carolina,N.C.,80,80,20
+NC,US Congressional Representative,13,Kathy Manning (D),C,2/28/2018,5/8/2018,11/6/2018,D,Kathy Manning,10,10,8,1,North Carolina,N.C.,80,80,20
+NC,US Congressional Representative,09,Maria Collins Warren (D),C,2/28/2018,5/8/2018,11/6/2018,D,Maria Collins Warren,10,10,8,1,North Carolina,N.C.,80,80,20
+NC,US Congressional Representative,12,Alma S. Adams (D),I,2/28/2018,5/8/2018,11/6/2018,D,Alma S. Adams,10,10,8,1,North Carolina,N.C.,80,80,20
+ND,P.S.Comm.,State,Julie Fedorchak (R),I,4/9/2018,6/12/2018,11/6/2018,R,Julie Fedorchak,4,1,3,1,North Dakota,N.D.,75,25,75
+ND,State Treasurer,State,Kelly L. Schmidt (R),I,4/9/2018,6/12/2018,11/6/2018,R,Kelly L. Schmidt,4,1,3,1,North Dakota,N.D.,75,25,75
+ND,US Congressional Senator,State,Heidi Heitkamp (D-NPL),I,4/9/2018,6/12/2018,11/6/2018,D,Heidi Heitkamp,4,2,1,2,North Dakota,N.D.,25,25,75
+ND,US Congressional Senator,State,Kathy Neset (R),C,4/9/2018,6/12/2018,11/6/2018,R,Kathy Neset,4,2,3,2,North Dakota,N.D.,75,25,75
+NE,US Congressional Senator,State,Deb Fischer (R),I,3/1/2018,5/15/2018,11/6/2018,R,Deb Fischer,5,2,2,2,Nebraska,Nebr.,40,60,40
+NE,Governor,State,Krystal Gabel (R),CP,3/1/2018,5/15/2018,11/6/2018,R,Krystal Gabel,5,1,2,1,Nebraska,Nebr.,40,60,40
+NE,US Congressional Senator,State,Jane Raybould (D),C,3/1/2018,5/15/2018,11/6/2018,D,Jane Raybould,5,2,3,2,Nebraska,Nebr.,60,60,40
+NE,US Congressional Representative,01,Jessica McClure (D),C,3/1/2018,5/15/2018,11/6/2018,D,Jessica McClure,5,2,3,1,Nebraska,Nebr.,60,60,40
+NE,US Congressional Representative,02,Kara Eastman (D),C,3/1/2018,5/15/2018,11/6/2018,D,Kara Eastman,5,2,3,1,Nebraska,Nebr.,60,60,40
+NH,US Congressional Representative,01,Maura C. Sullivan (D),O,6/15/2018,9/11/2018,11/6/2018,D,Maura C. Sullivan,4,4,3,2,New Hampshire,N.H.,75,75,25
+NH,US Congressional Representative,02,Lynne Blankenbeker (R),C,6/15/2018,9/11/2018,11/6/2018,R,Lynne Blankenbeker,4,4,1,2,New Hampshire,N.H.,25,75,25
+NH,US Congressional Representative,01,Mindi F. Messmer (D),O,6/15/2018,9/11/2018,11/6/2018,D,Mindi F. Messmer,4,4,3,2,New Hampshire,N.H.,75,75,25
+NH,US Congressional Representative,02,Ann McLane Kuster (D),I,6/15/2018,9/11/2018,11/6/2018,D,Ann McLane Kuster,4,4,3,2,New Hampshire,N.H.,75,75,25
+NJ,US Congressional Representative,02,Tanzie Youngblood (D),O,4/2/2018,6/5/2018,11/6/2018,D,Tanzie Youngblood,9,8,7,1,New Jersey,N.J.,78,78,22
+NJ,US Congressional Senator,State,Lisa McCormick (D),CP,4/2/2018,6/5/2018,11/6/2018,D,Lisa McCormick,9,1,7,1,New Jersey,N.J.,78,78,22
+NJ,US Congressional Representative,07,Lisa Mandelblatt (D),C,4/2/2018,6/5/2018,11/6/2018,D,Lisa Mandelblatt,9,8,7,3,New Jersey,N.J.,78,78,22
+NJ,US Congressional Representative,04,Felicia Stoler (R),C,4/2/2018,6/5/2018,11/6/2018,R,Felicia Stoler,9,8,2,1,New Jersey,N.J.,22,78,22
+NJ,US Congressional Representative,07,Lindsay Brown (R),CP,4/2/2018,6/5/2018,11/6/2018,R,Lindsay Brown,9,8,2,3,New Jersey,N.J.,22,78,22
+NJ,US Congressional Representative,07,Linda Weber (D),C,4/2/2018,6/5/2018,11/6/2018,D,Linda Weber,9,8,7,3,New Jersey,N.J.,78,78,22
+NJ,US Congressional Representative,11,Mikie Sherrill (D),C,4/2/2018,6/5/2018,11/6/2018,D,Mikie Sherrill,9,8,7,2,New Jersey,N.J.,78,78,22
+NJ,US Congressional Representative,11,Tamara Harris (D),C,4/2/2018,6/5/2018,11/6/2018,D,Tamara Harris,9,8,7,2,New Jersey,N.J.,78,78,22
+NJ,US Congressional Representative,12,Bonnie Watson Coleman (D),I,4/2/2018,6/5/2018,11/6/2018,D,Bonnie Watson Coleman,9,8,7,1,New Jersey,N.J.,78,78,22
+NM,Governor,State,Michelle Lujan Grisham (D),O,3/13/2018,6/5/2018,11/6/2018,D,Michelle Lujan Grisham,8,1,6,1,New Mexico,N.M.,75,75,25
+NM,US Congressional Representative,01,Janice Arnold-Jones (R),O,3/13/2018,6/5/2018,11/6/2018,R,Janice Arnold-Jones,8,6,2,3,New Mexico,N.M.,25,75,25
+NM,US Congressional Representative,02,Lori M. Hildebrandt (D),O,3/13/2018,6/5/2018,11/6/2018,D,Lori M. Hildebrandt,8,6,6,3,New Mexico,N.M.,75,75,25
+NM,US Congressional Representative,02,Yvette Herrell (R),O,3/13/2018,6/5/2018,11/6/2018,R,Yvette Herrell,8,6,2,3,New Mexico,N.M.,25,75,25
+NM,US Congressional Representative,02,Xochitl Torres Small (D),O,3/13/2018,6/5/2018,11/6/2018,D,Xochitl Torres Small,8,6,6,3,New Mexico,N.M.,75,75,25
+NM,Secretary of State,State,Maggie Toulouse Oliver (D),I,3/13/2018,6/5/2018,11/6/2018,D,Maggie Toulouse Oliver,8,1,6,1,New Mexico,N.M.,75,75,25
+NM,US Congressional Representative,01,Antoinette Sedillo Lopez (D),O,3/13/2018,6/5/2018,11/6/2018,D,Antoinette Sedillo Lopez,8,6,6,3,New Mexico,N.M.,75,75,25
+NM,US Congressional Representative,01,Debra A. Haaland (D),O,3/13/2018,6/5/2018,11/6/2018,D,Debra A. Haaland,8,6,6,3,New Mexico,N.M.,75,75,25
+NV,US Congressional Senator,State,Jacklyn S. Rosen (D),C,3/16/2018,6/12/2018,11/6/2018,D,Jacklyn S. Rosen,14,1,9,1,Nevada,Nev.,64,64,36
+NV,Governor,State,Christina R. Giunchigliani (D),O,3/16/2018,6/12/2018,11/6/ 2018,D,Christina R. Giunchigliani,14,1,9,1,Nevada,Nev.,64,64,36
+NV,Lieutenant Governor,State,Kate Marshall (D),O,3/16/2018,6/12/2018,11/6/2018,D,Kate Marshall,14,1,9,1,Nevada,Nev.,64,64,36
+NV,Secretary of State,State,Barbara Cegavske (R),I,3/16/2018,6/12/2018,11/6/2018,R,Barbara Cegavske,14,1,5,1,Nevada,Nev.,36,64,36
+NV,US Congressional Representative,03,Nicole Cannizzaro (D),O,3/16/2018,6/12/2018,11/6/2018,D,Nicole Cannizzaro,14,10,9,6,Nevada,Nev.,64,64,36
+NV,US Congressional Representative,01,Dina C. Titus (D),I,3/16/2018,6/12/2018,11/6/2018,D,Dina C. Titus,14,10,9,1,Nevada,Nev.,64,64,36
+NV,US Congressional Representative,02,Sharron E. Ott Angle (R),CP,3/16/2018,6/12/2018,11/6/2018,R,Sharron E. Ott Angle,14,10,5,1,Nevada,Nev.,36,64,36
+NV,US Congressional Representative,03,Victoria Seaman (R),O,3/16/2018,6/12/2018,11/6/2018,R,Victoria Seaman,14,10,5,6,Nevada,Nev.,36,64,36
+NV,US Congressional Representative,03,Michelle Mortensen (R),O,3/16/2018,6/12/2018,11/6/2018,R,Michelle Mortensen,14,10,5,6,Nevada,Nev.,36,64,36
+NV,US Congressional Representative,04,Amy Vilela (D),O,3/16/2018,6/12/2018,11/6/2018,D,Amy Vilela,14,10,9,2,Nevada,Nev.,64,64,36
+NV,US Congressional Representative,04,Patricia Ann Spearman (D),O,3/16/2018,6/12/2018,11/6/2018,D,Patricia Ann Spearman,14,10,9,2,Nevada,Nev.,64,64,36
+NV,US Congressional Representative,03,Susie Lee (D),O,3/16/2018,6/12/2018,11/6/2018,D,Susie Lee,14,10,9,6,Nevada,Nev.,64,64,36
+NV,US Congressional Representative,03,Natalie Gulbis (R),O,3/16/2018,6/12/2018,11/6/2018,R,Natalie Gulbis,14,10,5,6,Nevada,Nev.,36,64,36
+NV,US Congressional Representative,03,Joyce Woodhouse (D),O,3/16/2018,6/12/2018,11/6/2018,D,Joyce Woodhouse,14,10,9,6,Nevada,Nev.,64,64,36
+NY,Governor,State,Cynthia Nixon (D),CP,4/12/2018,6/26/2018,11/6/2018,D,Cynthia Nixon,29,3,26,3,New York,N.Y.,90,90,10
+NY,Governor,State,Stephanie Miner (D),CP,4/12/2018,6/26/2018,11/6/2018,D,Stephanie Miner,29,3,26,3,New York,N.Y.,90,90,10
+NY,Governor,State,Zephyr Teachout (D),CP,4/12/2018,6/26/2018,11/6/2018,D,Zephyr Teachout,29,3,26,3,New York,N.Y.,90,90,10
+NY,US Congressional Representative,01,Elaine DiMasi (D),C,4/12/2018,6/26/2018,11/6/2018,D,Elaine DiMasi,29,24,26,3,New York,N.Y.,90,90,10
+NY,Lieutenant Governor,State,Kathy Hochul (D),I,4/12/2018,6/26/2018,11/6/2018,D,Kathy Hochul,29,1,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Senator,State,Kirsten E. Gillibrand (D),I,4/12/2018,6/26/2018,11/6/2018,D,Kirsten E. Gillibrand,29,1,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,01,Vivian Viloria-Fisher (D),C,4/12/2018,6/26/2018,11/6/2018,D,Vivian Viloria-Fisher,29,24,26,3,New York,N.Y.,90,90,10
+NY,US Congressional Representative,06,Grace Meng (D),I,4/12/2018,6/26/2018,11/6/2018,D,Grace Meng,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,07,Nydia M. Velazquez (D),I,4/12/2018,6/26/2018,11/6/2018,D,Nydia M. Velazquez,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,09,Yvette D. Clarke (D),I,4/12/2018,6/26/2018,11/6/2018,D,Yvette D. Clarke,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,12,Carolyn B. Maloney (D),I,4/12/2018,6/26/2018,11/6/2018,D,Carolyn B. Maloney,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,14,Alexandria Ocasio-Cortez (D),CP,4/12/2018,6/26/2018,11/6/2018,D,Alexandria Ocasio-Cortez,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,17,Nita M. Lowey (D),I,4/12/2018,6/26/2018,11/6/2018,D,Nita M. Lowey,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,18,Sakima A. Brown (R),C,4/12/2018,6/26/2018,11/6/2018,R,Sakima A. Brown,29,24,3,1,New York,N.Y.,10,90,10
+NY,US Congressional Representative,21,Elise M. Stefanik (R),I,4/12/2018,6/26/2018,11/6/2018,R,Elise M. Stefanik,29,24,3,6,New York,N.Y.,10,90,10
+NY,US Congressional Representative,21,Tedra L. Cobb (D),C,4/12/2018,6/26/2018,11/6/2018,D,Tedra L. Cobb,29,24,26,6,New York,N.Y.,90,90,10
+NY,US Congressional Representative,21,Emily Martz (D),C,4/12/2018,6/26/2018,11/6/2018,D,Emily Martz,29,24,26,6,New York,N.Y.,90,90,10
+NY,US Congressional Representative,01,Kate Browning (D),C,4/12/2018,6/26/2018,11/6/2018,D,Kate Browning,29,24,26,3,New York,N.Y.,90,90,10
+NY,US Congressional Representative,02,Liuba Grechen Shirley (D),C,4/12/2018,6/26/2018,11/6/2018,D,Liuba Grechen Shirley,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,04,Kathleen M. Rice (D),I,4/12/2018,6/26/2018,11/6/2018,D,Kathleen M. Rice,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,22,Claudia Tenney (R),I,4/12/2018,6/26/2018,11/6/2018,R,Claudia Tenney,29,24,3,1,New York,N.Y.,10,90,10
+NY,US Congressional Representative,23,Tracy Mitrano (D),C,4/12/2018,6/26/2018,11/6/2018,D,Tracy Mitrano,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,24,Anne Messenger (D),C,4/12/2018,6/26/2018,11/6/2018,D,Anne Messenger,29,24,26,2,New York,N.Y.,90,90,10
+NY,US Congressional Representative,24,Dana Balter (D),C,4/12/2018,6/26/2018,11/6/2018,D,Dana Balter,29,24,26,2,New York,N.Y.,90,90,10
+NY,US Congressional Representative,25,Louise M. Slaughter (D),I,4/12/2018,6/26/2018,11/6/2018,D,Louise M. Slaughter,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,27,Joan E. Seamans (D),O,4/12/2018,6/26/2018,11/6/2018,D,Joan E. Seamans,29,24,26,1,New York,N.Y.,90,90,10
+NY,US Congressional Representative,21,Katie Wilson (D),C,4/12/2018,6/26/2018,11/6/2018,D,Katie Wilson,29,24,26,6,New York,N.Y.,90,90,10
+NY,US Congressional Representative,21,Tanya Boone (D),C,4/12/2018,6/26/2018,11/6/2018,D,Tanya Boone,29,24,26,6,New York,N.Y.,90,90,10
+NY,US Congressional Representative,21,Sara S. Idleman (D),C,4/12/2018,6/26/2018,11/6/2018,D,Sara S. Idleman,29,24,26,6,New York,N.Y.,90,90,10
+OH,Governor,State,Connie M. Pillich (D),O,2/7/2018,5/8/2018,11/6/2018,D,Connie M. Pillich,21,3,15,3,Ohio,Ohio,71,71,29
+OH,Secretary of State,State,Dorothy Pelanda (R),O,2/7/2018,5/8/2018,11/6/2018,R,Dorothy Pelanda,21,2,6,2,Ohio,Ohio,29,71,29
+OH,Governor,State,Mary Taylor (R),O,2/7/2018,5/8/2018,11/6/2018,R,Mary Taylor,21,3,6,3,Ohio,Ohio,29,71,29
+OH,Governor,State,Nan Whaley (D),O,2/7/2018,5/8/2018,11/6/2018,D,Nan Whaley,21,3,15,3,Ohio,Ohio,71,71,29
+OH,Lieutenant Governor,State,Betty S. Sutton (D),O,2/7/2018,5/8/2018,11/6/2018,D,Betty S. Sutton,21,1,15,1,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,01,Michele L. Young (D),C,2/7/2018,5/8/2018,11/6/2018,D,Michele L. Young,21,14,15,2,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,02,Janet S. Everhard (D),C,2/7/2018,5/8/2018,11/6/2018,D,Janet S. Everhard,21,14,15,2,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,02,Jill Schiller (D),C,2/7/2018,5/8/2018,11/6/2018,D,Jill Schiller,21,14,15,2,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,03,Joyce B. Beatty (D),I,2/7/2018,5/8/2018,11/6/2018,D,Joyce B. Beatty,21,14,15,1,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,09,Marcy C. Kaptur (D),I,2/7/2018,5/8/2018,11/6/2018,D,Marcy C. Kaptur,21,14,15,1,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,10,Theresa Gasper (D),C,2/7/2018,5/8/2018,11/6/2018,D,Theresa Gasper,21,14,15,1,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,11,Marcia L. Fudge (D),I,2/7/2018,5/8/2018,11/6/2018,D,Marcia L. Fudge,21,14,15,1,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,14,Betsy Rader (D),C,2/7/2018,5/8/2018,11/6/2018,D,Betsy Rader,21,14,15,1,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,16,Christina M. Hagan (R),O,2/7/2018,5/8/2018,11/6/2018,R,Christina M. Hagan,21,14,6,1,Ohio,Ohio,29,71,29
+OH,US Congressional Representative,12,Carol O'Brien (R),O,2/7/2018,5/8/2018,8/7/2018,R,Carol O'Brien,21,14,6,4,Ohio,Ohio,29,71,29
+OH,Secretary of State,State,Kathleen Clyde (D),O,2/7/2018,5/8/2018,11/6/2018,D,Kathleen Clyde,21,2,15,2,Ohio,Ohio,71,71,29
+OH,US Congressional Senator,State,Melissa Ackison (R),C,2/7/2018,5/8/2018,11/6/2018,R,Melissa Ackison,21,1,6,1,Ohio,Ohio,29,71,29
+OH,US Congressional Representative,01,Laura Ann Weaver (D),C,2/7/2018,5/8/2018,11/6/2018,D,Laura Ann Weaver,21,14,15,2,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,12,Jackie Patton (D),O,2/7/2018,5/8/2018,8/7/2018,D,Jackie Patton,21,14,15,4,Ohio,Ohio,71,71,29
+OH,US Congressional Representative,12,Melanie A. Leneghan (R),O,2/7/2018,5/8/2018,8/7/2018,R,Melanie A. Leneghan,21,14,6,4,Ohio,Ohio,29,71,29
+OH,US Congressional Representative,12,Crystal L. Lett (D),O,2/7/2018,5/8/2018,8/7/2018,D,Crystal L. Lett,21,14,15,4,Ohio,Ohio,71,71,29
+OK,Governor,State,Constance N. Johnson (D),O,4/13/2018,6/26/2018,11/6/2018,D,Constance N. Johnson,7,1,2,1,Oklahoma,Okla.,29,29,71
+OK,Superintendent of Public Instruction,State,Joy Hofmeister (R),I,4/13/2018,6/26/2018,11/6/2018,R,Joy Hofmeister,7,1,5,1,Oklahoma,Okla.,71,29,71
+OK,Land Commissioner,State,Leslie Osborn (R),O,4/13/2018,6/26/2018,11/6/2018,R,Leslie Osborn,7,2,5,2,Oklahoma,Okla.,71,29,71
+OK,Lieutenant Governor,State,Dana L. Murphy (R),O,4/13/2018,6/26/2018,11/6/2018,R,Dana L. Murphy,7,1,5,1,Oklahoma,Okla.,71,29,71
+OK,Auditor,State,Cindy Byrd (R),O,4/13/2018,6/26/2018,11/6/2018,R,Cindy Byrd,7,1,5,1,Oklahoma,Okla.,71,29,71
+OK,Land Commissioner,State,Cathy Costello (R),O,4/13/2018,6/26/2018,11/6/2018,R,Cathy Costello,7,2,5,2,Oklahoma,Okla.,71,29,71
+OK,US Congressional Representative,05,Kendra Horn (D),C,4/13/2018,6/26/2018,11/6/2018,D,Kendra Horn,7,1,2,1,Oklahoma,Okla.,29,29,71
+OR,US Congressional Representative,01,Suzanne M. Bonamici (D),I,3/6/2018,5/15/2018,11/6/2018,D,Suzanne M. Bonamici,4,3,3,1,Oregon,Ore.,75,75,25
+OR,US Congressional Representative,02,Jamie McLeod-Skinner (D),C,3/6/2018,5/15/2018,11/6/2018,D,Jamie McLeod-Skinner,4,3,3,1,Oregon,Ore.,75,75,25
+OR,Governor,State,Kate Brown (D),I,3/6/2018,5/15/2018,11/6/2018,D,Kate Brown,4,1,3,1,Oregon,Ore.,75,75,25
+OR,US Congressional Representative,04,Jo Rae Perkinds (R),C,3/6/2018,5/15/2018,11/6/2018,R,Jo Rae Perkinds,4,3,1,1,Oregon,Ore.,25,75,25
+PA,Lieutenant Governor,State,Kathellen M. Cozzone (D),CP,3/6/2018,5/15/2018,11/6/2018,D,Kathellen M. Cozzone,21,3,18,3,Pennsylvania,Pa.,86,86,14
+PA,Governor,State,Laura Ellsworth (R),C,3/6/2018,5/15/2018,11/6/2018,R,Laura Ellsworth,21,1,3,1,Pennsylvania,Pa.,14,86,14
+PA,Lieutenant Governor,State,Aryanna Barringer (D),CP,3/6/2018,5/15/2018,11/6/2018,D,Aryanna Barringer,21,3,18,3,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,07,Elizabeth Moro (D),O,3/6/2018,5/15/2018,11/6/2018,D,Elizabeth Moro,21,15,18,3,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,07,Shelly W. Chauncey (D),O,3/6/2018,5/15/2018,11/6/2018,D,Shelly W. Chauncey,21,15,18,3,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,08,Rachel Reddick (D),C,3/6/2018,5/15/2018,11/6/2108,D,Rachel Reddick,21,15,18,2,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,08,Valerie L. Mihalek (R),CP,3/6/2018,5/15/2018,11/6/2018,R,Valerie L. Mihalek,21,15,3,2,Pennsylvania,Pa.,14,86,14
+PA,US Congressional Representative,10,Judith L. Herschel (D),C,3/6/2018,5/15/2018,11/6/2018,D,Judith L. Herschel,21,15,18,1,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,11,Gigi Sebastian (D),O,3/6/2018,5/15/2018,11/6/2018,D,Gigi Sebastian,21,15,18,1,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,12,Beth Tarasi (D),C,3/6/2018,5/15/2018,11/6/2018,D,Beth Tarasi,21,15,18,1,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,15,Laura Quick (D),O,3/6/2018,5/15/2018,11/6/2018,D,Laura Quick,21,15,18,2,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,15,Susan Ellis Wild (D),O,3/6/2018,5/15/2018,11/6/2018,D,Susan Ellis Wild,21,15,18,2,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,16,Christina M. Hartman (D),C,3/6/2018,5/15/2018,11/6/2018,D,Christina M. Hartman,21,15,18,2,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,16,Jessica King (D),C,3/6/2018,5/15/2018,11/6/2018,D,Jessica King,21,15,18,2,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,01,Nina N. Ahmad (D),CP,3/6/2018,5/15/2018,11/6/2018,D,Nina N. Ahmad,21,15,18,2,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,06,Chrissy Houlahan (D),C,3/6/2018,5/15/2018,11/6/2018,D,Chrissy Houlahan,21,15,18,1,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,07,Molly Sheehan (D),O,3/6/2018,5/15/2018,11/6/2018,D,Molly Sheehan,21,15,18,3,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Senator,State,Theresa M. Wright (D),CP,3/6/2018,5/15/2018,11/6/2018,D,Theresa M. Wright,21,2,18,2,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Representative,01,Lindy Li (D),CP,3/6/2018,5/15/2018,11/6/2018,D,Lindy Li,21,15,18,2,Pennsylvania,Pa.,86,86,14
+PA,Lieutenant Governor,State,Madeleine Dean (D),CP,3/6/2018,5/15/2018,11/6/2018,D,Madeleine Dean,21,3,18,3,Pennsylvania,Pa.,86,86,14
+PA,US Congressional Senator,State,Cynthia E. Ayers (R),C,3/6/2018,5/15/2018,11/6/2018,R,Cynthia E. Ayers,21,2,3,2,Pennsylvania,Pa.,14,86,14
+RI,Secretary of State,State,Nellie Gorbes (D),I,6/27/2018,9/11/2018,11/6/2018,D,Nellie Gorbes,3,1,2,1,Rhode Island,R.I.,67,67,33
+RI,Governor,State,Gina Raimondo (D),I,6/27/2018,9/11/2018,11/6/2018,D,Gina Raimondo,3,2,2,2,Rhode Island,R.I.,67,67,33
+RI,Governor,State,Patricia Morgan (R),C,6/27/2018,9/11/2018,11/6/2018,R,Patricia Morgan,3,2,1,2,Rhode Island,R.I.,33,67,33
+SC,Superintendent of Public Instruction,State,Molly Spearman (R),I,3/30/2018,6/12/2018,11/6/2018,R,Molly Spearman,5,1,3,1,South Carolina,S.C.,60,40,60
+SC,Governor,State,Catherine B. Templeton (R),O,3/30/2018,6/12/2018,11/6/2018,R,Catherine B. Templeton,5,1,3,1,South Carolina,S.C.,60,40,60
+SC,US Congressional Representative,01,Katherine E. Arrington (R),CP,3/30/2018,6/12/2018,11/6/2018,R,Katherine E. Arrington,5,3,3,1,South Carolina,S.C.,60,40,60
+SC,US Congressional Representative,02,Annabelle Robertson (D),C,3/30/2018,6/12/2018,11/6/2018,D,Annabelle Robertson,5,3,2,1,South Carolina,S.C.,40,40,60
+SC,US Congressional Representative,03,Mary Smith Geren (D),C,3/30/2018,6/12/2018,11/6/2018,D,Mary Smith Geren,5,3,2,1,South Carolina,S.C.,40,40,60
+SD,Governor,State,Lora Hubbel (R),O,3/27/2018,6/5/2018,11/6/2018,R,Lora Hubbel,3,2,3,2,South Dakota,S.D.,100,0,100
+SD,Governor,State,Kristi Lynn Noem (R),O,3/27/2018,6/5/2018,11/6/2018,R,Kristi Lynn Noem,3,2,3,2,South Dakota,S.D.,100,0,100
+SD,US Congressional Representative,At-Large,Shantel Krebs (R),O,3/27/2018,6/5/2018,11/6/2018,R,Shantel Krebs,3,1,3,1,South Dakota,S.D.,100,0,100
+TN,US Congressional Senator,State,Lynnette Williams (D),O,4/5/2018,8/2/2018,11/6/2018,D,Lynnette Williams,9,2,4,2,Tennessee,Tenn.,44,44,56
+TN,US Congressional Representative,02,Renee Hoyos (D),O,4/5/2018,8/2/2018,11/6/2018,D,Renee Hoyos,9,3,4,1,Tennessee,Tenn.,44,44,56
+TN,Governor,State,Mae Beavers (R),O,4/5/2018,8/2/2018,11/6/2018,R,Mae Beavers,9,4,5,4,Tennessee,Tenn.,56,44,56
+TN,Governor,State,Beth Harwell (R),O,4/5/2018,8/2/2018,11/6/2018,R,Beth Harwell,9,4,5,4,Tennessee,Tenn.,56,44,56
+TN,US Congressional Representative,03,Danielle Mitchell (D),C,4/5/2018,8/2/2018,11/6/2018,D,Danielle Mitchell,9,3,4,1,Tennessee,Tenn.,44,44,56
+TN,US Congressional Representative,04,Mariah N. Phillips (D),C,4/5/2018,8/2/2018,11/6/2018,D,Mariah N. Phillips,9,3,4,1,Tennessee,Tenn.,44,44,56
+TN,US Congressional Senator,State,Marsha Blackburn (R),O,4/5/2018,8/2/2018,11/6/2018,R,Marsha Blackburn ,9,2,5,2,Tennessee,Tenn.,56,44,56
+TN,Governor,State,Kay White (R),O,4/5/2018,8/2/2018,11/6/2018,R,Kay White,9,4,5,4,Tennessee,Tenn.,56,44,56
+TN,Governor,State,Diane L. Black (R),O,4/5/2018,8/2/2018,11/6/2018,R,Diane L. Black,9,4,5,4,Tennessee,Tenn.,56,44,56
+TX,Governor,State,Demetria Smith (D),C,Filed,3/6/2018,11/6/2018,D,Demetria Smith,57,3,42,3,Texas,Tex.,74,74,26
+TX,Governor,State,Lupe Valdez (D),C,Filed,3/6/2018,11/6/2018,D,Lupe Valdez,57,3,42,3,Texas,Tex.,74,74,26
+TX,US Congressional Representative,01,Shirley J. McKellar (D),C,Filed,3/6/2018,11/6/2018,D,Shirley J. McKellar,57,48,42,1,Texas,Tex.,74,74,26
+TX,US Congressional Representative,02,Silky Malik (D),O,Filed,3/6/2018,11/6/2018,D,Silky Malik,57,48,42,1,Texas,Tex.,74,74,26
+TX,US Congressional Representative,03,Lorie L. Burch (D),O,Filed,3/6/2018,11/6/2018,D,Lorie L. Burch,57,48,42,1,Texas,Tex.,74,74,26
+TX,US Congressional Representative,04,Catherine Krantz (D),C,Filed,3/6/2018,11/6/2018,D,Catherine Krantz,57,48,42,1,Texas,Tex.,74,74,26
+TX,US Congressional Representative,05,Bunni Pounds (R),O,Filed,3/6/2018,11/6/2018,R,Bunni Pounds,57,48,15,1,Texas,Tex.,26,74,26
+TX,US Congressional Representative,06,Jana L. Sanchez (D),O,Filed,3/6/2018,11/6/2018,D,Jana L. Sanchez,57,48,42,3,Texas,Tex.,74,74,26
+TX,US Congressional Representative,06,Ruby Faye Woolridge (D),O,Filed,3/6/2018,11/6/2018,D,Ruby Faye Woolridge,57,48,42,3,Texas,Tex.,74,74,26
+TX,US Congressional Representative,06,Deborah Gagliardi (R),O,Filed,3/6/2018,11/6/2018,R,Deborah Gagliardi,57,48,15,3,Texas,Tex.,26,74,26
+TX,US Congressional Representative,07,Elizabeth Pannill Fletcher (D),C,Filed,3/6/2018,11/6/2018,D,Elizabeth Pannill Fletcher,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,07,Laura Moser (D),C,Filed,3/6/2018,11/6/2018,D,Laura Moser,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,10,Tami Walker (D),C,Filed,3/6/2018,11/6/2018,D,Tami Walker,57,48,42,3,Texas,Tex.,74,74,26
+TX,US Congressional Representative,10,Tawana Walter-Cadien (D),C,Filed,3/6/2018,11/6/2018,D,Tawana Walter-Cadien,57,48,42,3,Texas,Tex.,74,74,26
+TX,US Congressional Representative,10,Madeline Eden (D),C,Filed,3/6/2018,11/6/2018,D,Madeline Eden,57,48,42,3,Texas,Tex.,74,74,26
+TX,US Congressional Representative,11,Virginia Leeder (D),C,Filed,3/6/2018,11/6/2018,D,Virginia Leeder,57,48,42,1,Texas,Tex.,74,74,26
+TX,US Congressional Representative,12,Kay N. Granger (R),I,Filed,3/6/2018,11/6/2018,R,Kay N. Granger,57,48,15,2,Texas,Tex.,26,74,26
+TX,US Congressional Representative,12,Vanessa M. Adia (D),C,Filed,3/6/2018,11/6/2018,D,Vanessa M. Adia,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,14,Adrienne Bell (D),C,Filed,3/6/2018,11/6/2018,D,Adrienne Bell,57,48,42,1,Texas,Tex.,74,74,26
+TX,US Congressional Representative,16,Dori Fenenbock (D),O,Filed,3/6/2018,11/6/2018,D,Dori Fenenbock,57,48,42,4,Texas,Tex.,74,74,26
+TX,US Congressional Representative,16,Veronica Escobar (D),O,Filed,3/6/2018,11/6/2018,D,Veronica Escobar,57,48,42,4,Texas,Tex.,74,74,26
+TX,US Congressional Representative,16,Alia Garcia-Ureste (R),O,Filed,3/6/2018,11/6/2018,R,Alia Garcia-Ureste,57,48,15,4,Texas,Tex.,26,74,26
+TX,US Congressional Representative,16,Norma Chavez (D),O,Filed,3/6/2018,11/6/2018,D,Norma Chavez,57,48,42,4,Texas,Tex.,74,74,26
+TX,US Congressional Representative,18,Sheila Jackson Lee (D),I,Filed,3/6/2018,11/6/2018,D,Sheila Jackson Lee,57,48,42,1,Texas,Tex.,74,74,26
+TX,US Congressional Representative,21,Mary E. Wilson (D),O,Filed,3/6/2018,11/6/2018,D,Mary E. Wilson,57,48,42,4,Texas,Tex.,74,74,26
+TX,US Congressional Representative,21,Susan Narvaiz (R),O,Filed,3/6/2018,11/6/2018,R,Susan Narvaiz,57,48,15,4,Texas,Tex.,26,74,26
+TX,US Congressional Representative,21,Jenifer Sarver (R),O,Filed,3/6/2018,11/6/2018,R,Jenifer Sarver,57,48,15,4,Texas,Tex.,26,74,26
+TX,US Congressional Representative,21,Peggy Wardlaw (R),O,Filed,3/6/2018,11/6/2018,R,Peggy Wardlaw,57,48,15,4,Texas,Tex.,26,74,26
+TX,US Congressional Representative,22,Letitia L. Plummer (D),C,Filed,3/6/2018,11/6/2018,D,Letitia L. Plummer,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,22,Margarita Ruiz Johnson (D),C,Filed,3/6/2018,11/6/2018,D,Margarita Ruiz Johnson,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,23,Gina Ortiz Jones (D),C,Filed,3/6/2018,11/6/2018,D,Gina Ortiz Jones,57,48,42,4,Texas,Tex.,74,74,26
+TX,US Congressional Representative,23,Alma Arredondo-Lynch (R),CP,Filed,3/6/2018,11/6/2018,R,Alma Arredondo-Lynch,57,48,15,4,Texas,Tex.,26,74,26
+TX,US Congressional Representative,23,Judy Canales (D),C,Filed,3/6/2018,11/6/2018,D,Judy Canales,57,48,42,4,Texas,Tex.,74,74,26
+TX,US Congressional Representative,23,Angela Villescaz (D),C,Filed,3/6/2018,11/6/2018,D,Angela Villescaz,57,48,42,4,Texas,Tex.,74,74,26
+TX,US Congressional Representative,24,Jan McDowell (D),C,Filed,3/6/2018,11/6/2018,D,Jan McDowell,57,48,42,1,Texas,Tex.,74,74,26
+TX,US Congressional Representative,25,Kathleen Thomas (D),C,Filed,3/6/2018,11/6/2018,D,Kathleen Thomas,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,25,Julie K. Oliver (D),C,Filed,3/6/2018,11/6/2018,D,Julie K. Oliver,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,26,Linsey E. Fagan (D),C,Filed,3/6/2018,11/6/2018,D,Linsey E. Fagan,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,26,Veronica Birkenstock (R),CP,Filed,3/6/2018,11/6/2018,R,Veronica Birkenstock,57,48,15,2,Texas,Tex.,26,74,26
+TX,US Congressional Representative,27,Vanessa Edwards Foster (R),O,Filed,3/6/2018,11/6/2018,R,Vanessa Edwards Foster,57,48,15,1,Texas,Tex.,26,74,26
+TX,US Congressional Representative,29,Sylvia R. Garcia (D),O,Filed,3/6/2018,11/6/2018,D,Sylvia R. Garcia,57,48,42,4,Texas,Tex.,74,74,26
+TX,US Congressional Representative,29,Dominique Garcia (D),O,Filed,3/6/2018,11/6/2018,D,Dominique Garcia,57,48,42,4,Texas,Tex.,74,74,26
+TX,US Congressional Representative,29,Jamy Z. Blanco (R),O,Filed,3/6/2018,11/6/2018,R,Jamy Z. Blanco,57,48,15,4,Texas,Tex.,26,74,26
+TX,US Congressional Representative,29,Carmen M. Montiel (R),O,Filed,3/6/2018,11/6/2018,R,Carmen M. Montiel,57,48,15,4,Texas,Tex.,26,74,26
+TX,US Congressional Representative,30,Eddie Bernice Johnson (D),I,Filed,3/6/2018,11/6/2018,D,Eddie Bernice Johnson,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,30,Barbara Mallory Caraway (D),CP,Filed,3/6/2018,11/6/2018,D,Barbara Mallory Caraway,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,31,Christine Mann (D),C,Filed,3/6/2018,11/6/2018,D,Christine Mann,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,31,MJ Hegar (D),C,Filed,3/6/2018,11/6/2018,D,MJ Hegar,57,48,42,2,Texas,Tex.,74,74,26
+TX,US Congressional Representative,32,Lillian E. Salerno (D),C,Filed,3/6/2018,11/6/2018,D,Lillian E. Salerno,57,48,42,1,Texas,Tex.,74,74,26
+TX,US Congressional Representative,36,Dayna Steele (D),C,Filed,3/6/2018,11/6/2018,D,Dayna Steele,57,48,42,1,Texas,Tex.,74,74,26
+TX,Governor,State,Barbara Krueger (R),CP,Filed,3/6/2018,11/6/2018,R,Barbara Krueger,57,3,15,3,Texas,Tex.,26,74,26
+TX,Comptroller,State,Joi Chevalier (D),C,Filed,3/6/2018,11/6/2018,D,Joi Chevalier,57,1,42,1,Texas,Tex.,74,74,26
+TX,Commissioner of Agriculture,State,Kim Olson (D),C,Filed,3/6/2018,11/6/2018,D,Kim Olson,57,1,42,1,Texas,Tex.,74,74,26
+TX,Railroad Commissioner,State,Christi Craddick (R),I,Filed,3/6/2018,11/6/2018,R,Christi Craddick,57,1,15,1,Texas,Tex.,26,74,26
+TX,US Congressional Senator,State,Sema Hernandez (D),C,Filed,3/6/2018,11/6/2018,D,Sema Hernandez,57,3,42,3,Texas,Tex.,74,74,26
+TX,US Congressional Senator,State,Geraldine Sam (D),C,Filed,3/6/2018,11/6/2018,D,Geraldine Sam,57,3,42,3,Texas,Tex.,74,74,26
+TX,US Congressional Senator,State,Mary Miller (R),C,Filed,3/6/2018,11/6/2018,R,Mary Miller,57,3,15,3,Texas,Tex.,26,74,26
+UT,US Congressional Representative,04,Darlene McDonald (D),C,3/15/2018,6/26/2018,11/6/2018,D,Darlene McDonald,8,7,5,2,Utah,Utah,62,62,38
+UT,US Congressional Representative,02,Mary Burkett (R),CP,3/15/2018,6/26/2018,11/6/2018,R,Mary Burkett,8,7,3,4,Utah,Utah,38,62,38
+UT,US Congressional Senator,State,Jenny Wilson (D),O,3/15/2018,6/26/2018,11/6/2018,D,Jenny Wilson,8,1,5,1,Utah,Utah,62,62,38
+UT,US Congressional Representative,01,Cathy Callow-Huesser (R),CP,3/15/2018,6/26/2018,11/6/2018,R,Cathy Callow-Huesser,8,7,3,1,Utah,Utah,38,62,38
+UT,US Congressional Representative,02,Misty K. Snow (D),C,3/15/2018,6/26/2018,11/6/2018,D,Misty K. Snow,8,7,5,4,Utah,Utah,62,62,38
+UT,US Congressional Representative,02,Carol Surveyor (D),C,3/15/2018,6/26/2018,11/6/2018,D,Carol Surveyor,8,7,5,4,Utah,Utah,62,62,38
+UT,US Congressional Representative,02,Shireen S. Ghorbani (D),C,3/15/2018,6/26/2018,11/6/2018,D,Shireen S. Ghorbani,8,7,5,4,Utah,Utah,62,62,38
+UT,US Congressional Representative,04,Mia B. Love (R),I,3/15/2018,6/26/2018,11/6/2018,R,Mia B. Love,8,7,3,2,Utah,Utah,38,62,38
+VA,US Congressional Representative,01,Vangie Williams (D),C,3/29/2018,6/12/2018,11/6/2018,D,Vangie Williams,20,20,16,1,Virginia,Va.,80,80,20
+VA,US Congressional Representative,02,Elaine G. Luria (D),C,3/29/2018,6/12/2018,11/6/2018,D,Elaine G. Luria,20,20,16,4,Virginia,Va.,80,80,20
+VA,US Congressional Representative,02,Shaun D. Brown (D),C,3/29/2018,6/12/2018,11/6/2018,D,Shaun D. Brown,20,20,16,4,Virginia,Va.,80,80,20
+VA,US Congressional Representative,02,Karen Mallard (D),C,3/29/2018,6/12/2018,11/6/2018,D,Karen Mallard,20,20,16,4,Virginia,Va.,80,80,20
+VA,US Congressional Representative,02,Mary Jones (R),CP,3/29/2018,6/12/2018,11/6/2018,R,Mary Jones,20,20,4,4,Virginia,Va.,20,80,20
+VA,US Congressional Representative,07,Abigail D. Spanberger (D),C,3/29/2018,6/12/2018,11/6/2018,D,Abigail D. Spanberger,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,07,Diane F. Fraser (D),C,3/29/2018,6/12/2018,11/6/2018,D,Diane F. Fraser,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,10,Barbara J. Comstock (R),I,3/29/2018,6/12/2018,11/6/2018,R,Barbara J. Comstock,20,20,4,6,Virginia,Va.,20,80,20
+VA,US Congressional Representative,10,Kathy Smith (D),C,3/29/2018,6/12/2018,11/6/2018,D,Kathy Smith,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,10,Jennifer Wexton (D),C,3/29/2018,6/12/2018,11/6/2018,D,Jennifer Wexton,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,10,Lindsey Davis Stover (D),C,3/29/2018,6/12/2018,11/6/2018,D,Lindsey Davis Stover,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,05,Leslie Cockburn (D),C,3/29/2018,6/12/2018,11/6/2018,D,Leslie Cockburn,20,20,16,1,Virginia,Va.,80,80,20
+VA,US Congressional Representative,06,Cynthia Dunbar (R),O,3/29/2018,6/12/2018,11/6/2018,R,Cynthia Dunbar,20,20,4,2,Virginia,Va.,20,80,20
+VA,US Congressional Representative,06,Kathryn Lewis (R),O,3/29/2018,6/12/2018,11/6/2018,R,Kathryn Lewis,20,20,4,2,Virginia,Va.,20,80,20
+VA,US Congressional Representative,07,Helen Alli (D),C,3/29/2018,6/12/2018,11/6/2018,D,Helen Alli,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,07,Eileen McNeil Bedell (D),C,3/29/2018,6/12/2018,11/6/2018,D,Eileen McNeil Bedell,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,07,Janelle Noble (D),C,3/29/2018,6/12/2018,11/6/2018,D,Janelle Noble,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,07,Kimberly S. Gower (D),C,3/29/2018,6/12/2018,11/6/2018,D,Kimberly S. Gower,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,10,Julia E. Biggins (D),C,3/29/2018,6/12/2018,11/6/2018,D,Julia E. Biggins,20,20,16,6,Virginia,Va.,80,80,20
+VA,US Congressional Representative,10,Alison Friedman (D),C,3/29/2018,6/12/2018,11/6/2018,D,Alison Friedman,20,20,16,6,Virginia,Va.,80,80,20
+VI,US Delegate,At-Large,Stacey E. Plaskett (D),I,,8/4/2018,11/6/2018,D,Stacey E. Plaskett,1,1,1,1,Virgin Islands,V.I.,100,100,0
+VT,State Treasurer,State,Beth Pearce (D),I,5/31/2018,8/14/2018,11/6/2018,D,Beth Pearce,2,1,2,1,Vermont,Vt.,100,100,0
+VT,US Congressional Representative,At-Large,Cris Ericson (D),CP,5/31/2018,8/14/2018,11/6/2018,D,Cris Ericson,2,1,2,1,Vermont,Vt.,100,100,0
+WA,US Congressional Representative,01,Suzan K. DelBene (D),I,5/18/2018,8/7/2018,11/6/2018,D,Suzan K. DelBene,12,10,10,1,Washington,Wash.,83,83,17
+WA,US Congressional Representative,03,Jaime L. Herrera Beutler (R),I,5/18/2018,8/7/2018,11/6/2018,R,Jaime L. Herrera Beutler,12,10,2,2,Washington,Wash.,17,83,17
+WA,US Congressional Representative,03,Dorothy Gasque (D),C,5/18/2018,8/7/2018,11/6/2018,D,Dorothy Gasque,12,10,10,2,Washington,Wash.,83,83,17
+WA,US Congressional Representative,05,Cathy McMorris Rodgers (R),I,5/18/2018,8/7/2018,11/6/2018,R,Cathy McMorris Rodgers,12,10,2,2,Washington,Wash.,17,83,17
+WA,US Congressional Representative,05,Lisa Brown (D),C,5/18/2018,8/7/2018,11/6/2018,D,Lisa Brown,12,10,10,2,Washington,Wash.,83,83,17
+WA,US Congressional Representative,07,Pramila Jayapal (D),I,5/18/2018,8/7/2018,11/6/2018,D,Pramila Jayapal,12,10,10,1,Washington,Wash.,83,83,17
+WA,US Congressional Representative,04,Christine C. Brown (D),C,5/18/2018,8/7/2018,11/6/2018,D,Christine C. Brown,12,10,10,1,Washington,Wash.,83,83,17
+WA,US Congressional Senator,State,Maria Cantwell (D),I,5/18/2018,8/7/2018,11/6/2018,D,Maria Cantwell,12,2,10,2,Washington,Wash.,83,83,17
+WA,US Congressional Senator,State,Jennifer H. Ferguson (D),CP,5/18/2018,8/7/2018,11/6/2018,D,Jennifer H. Ferguson,12,2,10,2,Washington,Wash.,83,83,17
+WA,US Congressional Representative,09,Sarah Smith (D),CP,5/18/2018,8/7/2018,11/6/2018,D,Sarah Smith,12,10,10,1,Washington,Wash.,83,83,17
+WA,US Congressional Representative,08,Kim Schrier (D),O,5/18/2018,8/7/2018,11/6/2018,D,Kim Schrier,12,10,10,2,Washington,Wash.,83,83,17
+WA,US Congressional Representative,08,Shannon Hader (D),O,5/18/2018,8/7/2018,11/6/2018,D,Shannon Hader,12,10,10,2,Washington,Wash.,83,83,17
+WI,Lieutenant Governor,State,Rebecca Kleefisch (R),I,6/1/2018,8/14/2018,11/6/2018,R,Rebecca Kleefisch,13,1,2,1,Wisconsin,Wis.,15,85,15
+WI,Governor,State,Kelda Helen Roys (D),C,6/1/2018,8/14/2018,11/6/2018,D,Kelda Helen Roys,13,5,11,5,Wisconsin,Wis.,85,85,15
+WI,US Congressional Representative,01,Cathy L. Myers (D),C,6/1/2018,8/14/2018,11/6/2018,D,Cathy L. Myers,13,4,11,1,Wisconsin,Wis.,85,85,15
+WI,US Congressional Senator,State,Tammy Baldwin (D),I,6/1/2018,8/14/2018,11/6/2018,D,Tammy Baldwin,13,3,11,3,Wisconsin,Wis.,85,85,15
+WI,US Congressional Senator,State,Leah Vukmir (R),C,6/1/2018,8/14/2018,11/6/2018,R,Leah Vukmir,13,3,2,3,Wisconsin,Wis.,15,85,15
+WI,US Congressional Senator,State,Mary Jo Walters (D),CP,6/1/2018,8/14/2018,11/6/2018,D,Mary Jo Walters,13,3,11,3,Wisconsin,Wis.,85,85,15
+WI,Governor,State,Susan Happ (D),C,6/1/2018,8/14/2018,11/6/2018,D,Susan Happ,13,5,11,5,Wisconsin,Wis.,85,85,15
+WI,Governor,State,Kathleen Vinehout (D),C,6/1/2018,8/14/2018,11/6/2018,D,Kathleen Vinehout,13,5,11,5,Wisconsin,Wis.,85,85,15
+WI,Governor,State,Michele Doolan (D),C,6/1/2018,8/14/2018,11/6/2018,D,Michele Doolan,13,5,11,5,Wisconsin,Wis.,85,85,15
+WI,Governor,State,Ramona R. Whiteaker (D),C,6/1/2018,8/14/2018,11/6/2018,D,Ramona R. Whiteaker,13,5,11,5,Wisconsin,Wis.,85,85,15
+WI,US Congressional Representative,06,Sarah Lloyd (D),C,6/1/2018,8/14/2018,11/6/2018,D,Sarah Lloyd,13,4,11,1,Wisconsin,Wis.,85,85,15
+WI,US Congressional Representative,03,Juliet Dita Germanotta (D),CP,6/1/2018,8/14/2018,11/6/2018,D,Juliet Dita Germanotta,13,4,11,1,Wisconsin,Wis.,85,85,15
+WI,US Congressional Representative,04,Gwen S. Moore (D),I,6/1/2018,8/14/2018,11/6/2018,D,Gwen S. Moore,13,4,11,1,Wisconsin,Wis.,85,85,15
+WV,US Congressional Senator,State,Paula J. Swearengin (D),CP,1/27/2018,5/8/2018,11/6/2018,D,Paula J. Swearengin,5,1,3,1,West Virginia,W.Va.,60,60,40
+WV,US Congressional Representative,03,Carol D. Miller (R),O,1/27/2018,5/8/2018,11/6/2018,R,Carol D. Miller,5,4,2,2,West Virginia,W.Va.,40,60,40
+WV,US Congressional Representative,01,Kendra Jean Huard Fershee (D),C,1/27/2018,5/8/2018,11/6/2018,D,Kendra Jean Huard Fershee,5,4,3,1,West Virginia,W.Va.,60,60,40
+WV,US Congressional Representative,02,R. Talley Sergent (D),C,1/27/2018,5/8/2018,11/6/2018,D,R. Talley Sergent,5,4,3,1,West Virginia,W.Va.,60,60,40
+WV,US Congressional Representative,03,Ayne Amjad (R),O,1/27/2018,5/8/2018,11/6/2018,R,Ayne Amjad,5,4,2,2,West Virginia,W.Va.,40,60,40
+WY,Governor,State,Mary Throne (D),O,6/1/2018,8/21/2018,11/6/2018,D,Mary Throne,5,2,1,2,Wyoming,Wyo.,20,20,80
+WY,US Congressional Representative,At-Large,Liz L. Cheney (R),I,6/1/2018,8/21/2018,11/6/2018,R,Liz L. Cheney,5,1,4,1,Wyoming,Wyo.,80,20,80
+WY,Governor,State,Harriet M. Hageman (R),O,6/1/2018,8/21/2018,11/6/2018,R,Harriet M. Hageman,5,2,4,2,Wyoming,Wyo.,80,20,80
+WY,Auditor,State,Cynthia Cloud (R),I,6/1/2018,8/21/2018,11/6/2018,R,Cynthia Cloud,5,1,4,1,Wyoming,Wyo.,80,20,80
+WY,Superintendent of Public Instruction,State,Jillian Balow (R),I,6/1/2018,8/21/2018,11/6/2018,R,Jillian Balow,5,1,4,1,Wyoming,Wyo.,80,20,80
+LA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Louisiana,La.,NA,NA,NA
+PR,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,NA,Puerto Rico,P.R.,NA,NA,NA
