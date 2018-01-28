@@ -4,7 +4,7 @@ library(shiny)
 library(plotly)
 library(DT)
 
-if (!exists("statedata")) statedata = readRDS("data/statedata.rds")
+source("global.R", local = TRUE)
 
 columns <- c("State", "Candidate", "District", "Office", "Party")
 
@@ -47,7 +47,7 @@ ui <- fluidPage(
                                               a("blog.", href = "https://medium.com/@jblistman", target = "_blank")),
                                             p(a("R", href = "https://www.r-project.org", target = "_blank"),
                                               "code and details of data processing and visualization are available on",
-                                              a("GitHub.", href = "https://github.com/jblistman", target = "_blank"),
+                                              a("GitHub.", href = "https://github.com/JListman/Scrape_WomenRunning_CAWP", target = "_blank"),
                                               "Find me", a("Jenny Listman",
                                                       href = "https://twitter.com/jblistman", target = "_blank"),
                                               "on", a("Twitter", icon("twitter"),
@@ -60,7 +60,7 @@ ui <- fluidPage(
                     ),
         tags$div(class="footer", checked=NA,tags$p("An interactive app with data from",
                 a("The Center for American Women in Politics", href = "http://www.cawp.rutgers.edu")),
-                tags$p(a("Code Available on GitHub", href = "http://github.org"))
+                tags$p(a("Code Available on GitHub", href = "https://github.com/JListman/Scrape_WomenRunning_CAWP"))
                  )
         )
 
