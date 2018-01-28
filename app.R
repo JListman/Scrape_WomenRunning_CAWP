@@ -9,7 +9,7 @@ source("global.R", local = TRUE)
 columns <- c("State", "Candidate", "District", "Office", "Party")
 
 ui <- fluidPage(
-        titlePanel("Find Women Running for Federal or State Office"),
+        titlePanel("Women Running for Congress or State Office"),
         tabsetPanel(type = "tabs",
                     tabPanel("Map", plotlyOutput("statebins")),
                     tabPanel("Searchable Table",

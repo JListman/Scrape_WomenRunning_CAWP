@@ -163,7 +163,8 @@ elections <- elections %>%
         mutate(percentdem = ifelse(party == "D", percentparty, 100-percentparty)) %>%
         mutate(percentrepub = 100-percentdem) %>%
         subset(!(Abbreviation %in% c("","Guam"))) %>%
-        rename(Office = office,Candidate = candidate,Party = party, District = dist)
+        rename(Office = office,Candidate = candidate,Party = party, District = dist) %>%
+        droplevels()
 ```
 
 Make data for map: select a subset of needed variables and remove duplicates so there is only one row per state. Rename variables to be readable for the map's hover text. Change abbreviation `state` and full name `State` from factor to character variables and change `NA` values to `0` for hover text.
@@ -217,8 +218,10 @@ Make the `plotly` - based map for use in a `shiny` app.
 
 The full `shiny` app code, including code for the `datatable` section of the app, can be found in the `app.R` file in [this GitHub repo](https://github.com/JListman/Scrape_WomenRunning_CAWP).
 
+Make `plotly` - based map for use in a `shiny` app. Full `shiny` app can be found in [this github repo](https://github.com/JListman/Scrape_WomenRunning_CAWP).
+
 ``` r
- y_Axis <- list(title = "",
+y_Axis <- list(title = "",
                 zeroline = FALSE,
                 showline = FALSE,
                 showticklabels = FALSE,
@@ -232,7 +235,7 @@ x_Axis <- list(title = "Hover Over State for Details",
                showgrid = FALSE
                 )
                 
-plot_ly(statedata, x = ~col, y = ~-row) %>%
+hovermap<- (plot_ly(statedata, x = ~col, y = ~-row) %>%
         add_markers(color = ~bins,
                     colors = mapcolors,
                     text = ~txt,
@@ -241,7 +244,10 @@ plot_ly(statedata, x = ~col, y = ~-row) %>%
                     hoverinfo = "text"
                     ) %>%
         add_text(text = ~state, color = I("white"), hoverinfo = "none") %>%
-        layout(showlegend = TRUE, xaxis = x_Axis, yaxis = y_Axis)
+        layout(showlegend = FALSE, xaxis = x_Axis, yaxis = y_Axis)
+)
+    
+hovermap            
 ```
 
 ![](ScrapeCandidates_files/figure-markdown_github/plot_map-1.png)
