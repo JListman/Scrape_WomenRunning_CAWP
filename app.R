@@ -13,27 +13,32 @@ ui <- fluidPage(theme = shinytheme("yeti"),
         tabsetPanel(type = "tabs",
                     tabPanel("Map", align="center", plotlyOutput("statebins", width = "600px", height = "400px")),
                     tabPanel("Searchable Table",
-                             selectizeInput("Party", "Choose Party",
+                             fluidPage(
+                             column(4,
+                                     selectizeInput("Party", "Choose Party",
                                            c("Democrat" = "D",
                                              "Republican" = "R",
                                              "All" = "All"
                                              ),
                                            multiple = TRUE,
                                            selected = "D",
-                                           width = '250px'
-                                           ),
+                                           width = '200px'
+                                           )),
+                             column(4,
                              selectizeInput("State", "Choose State(s)",
                                             c("All"= "All", levels(elections$State)),
                                             multiple = TRUE,
                                             selected = "California",
-                                            width = '250px'
-                                            ),
-                             DTOutput("data" )),
+                                            width = '200px'
+                                            )),
+                             column(12,
+                             DTOutput("data" )))
+                    ),
                     tabPanel("About",
                              fluidPage(
-                                     column(12,
+                                     column(10,
                                             h3("An App to Search for Women Running for Congress or State Office"),
-                                            p("This project was created from a database maintained by the",
+                                            p("I created this project to visualize a database maintained by the",
                                               a("Center for American Women in Politics",
                                                 href = "http://www.cawp.rutgers.edu", target = "_blank"), "at",
                                               a("Rutgers University.", 
@@ -54,7 +59,8 @@ ui <- fluidPage(theme = shinytheme("yeti"),
                                               "on", a("Twitter", icon("twitter"),
                                                       href = "https://twitter.com/jblistman", target = "_blank"), "or",
                                               a("LinkedIn", icon("linkedin"), 
-                                                href = "https://www.linkedin.com/in/jenniferlistman/", target = "_blank"))
+                                                href = "https://www.linkedin.com/in/jenniferlistman/", target = "_blank")),
+                                            HTML("<br><br><br>")
                                             )
                                      )
                              )

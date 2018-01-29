@@ -10,4 +10,4 @@ if (!exists("statedata"))
 if (!exists("elections"))
         elections = readRDS("data/electiondata.rds")
 
-mapcolors <- c("#808080",get_palette(c("#b2182b","#2166ac"), 5))
+mapcolors <- c("#808080", "#B2182B", "#8D2B4B", "#693F6B", "#45528B", "#2166AC")
