@@ -7,9 +7,9 @@ Jenny Listman
 
 This project was created with data scraped from the website of the [Center for American Women in Politics](http://www.cawp.rutgers.edu) at [Rutgers University](https://www.rutgers.edu). The Center conducts research on women's participation in politics in America and maintains [a list](http://cawp.rutgers.edu/buzz-2018-potential-women-candidates-us-congress-and-statewide-elected-executive) of women who are or potentially will be running for US Congress and State offices.
 
-The code scrapes and combines data from their lists of women candidates, creates new variables, and visualizes the data in an interactive `shiny` map and searchable data table using `plotly` and `DT` packages . **The [CAWP](http://www.cawp.rutgers.edu) states that their products or data are available for non-for-profit distribution as long as they are given credit (we are allowed to scrape their data table - thank you CAWP).**
+The code scrapes and combines data from their lists of women candidates, cleans and creates new variables, and visualizes the data in an interactive `shiny` map and searchable data table using `plotly` and `DT` packages . **The [CAWP](http://www.cawp.rutgers.edu) states that their products or data are available for non-for-profit distribution as long as they are given credit (we are allowed to scrape their data table - thank you CAWP).**
 
-See the app in action [here](https://jennylistman.shinyapps.io/Women_Candidates/).
+See the app in action [here](https://jennylistman.shinyapps.io/WomenCandidates/).
 
 Load packages needed:
 
@@ -26,10 +26,9 @@ library(DT)
 ```
 
 To turn the website into data:
-1. Specify the url for website with tables to be scraped.
-2. Read HTML with `xml2::read_html`.
-3. Get HTML nodes with `rvest::html_nodes` and
-4. parse table contents into dataframes with `rvest::html_table`.
+1. Specify and read in the url for website with tables to be scraped.
+2. Get HTML nodes with `rvest::html_nodes` and
+3. parse table contents into dataframes with `rvest::html_table`.
 
 ``` r
 url <- 'http://cawp.rutgers.edu/buzz-2018-potential-women-candidates-us-congress-and-statewide-elected-executive'
@@ -62,7 +61,7 @@ glimpse(candidate_tables[[1]])
 glimpse(candidate_tables[[2]])
 ```
 
-    ## Observations: 724
+    ## Observations: 733
     ## Variables: 8
     ## $ State                    <chr> "AK", "", "", "", "AL", "", "", "", "...
     ## $ Office                   <chr> "", "Lt. Gov.", "Lt. Gov.", "", "", "...
@@ -135,7 +134,8 @@ elections <- elections %>%
         mutate(party = str_elem(candidate_name_party, -2)) %>%
         mutate(party = replace(party, party == "L", "D")) %>% 
         mutate(party = as.factor(party)) %>%
-        mutate(candidate = trimws(str_before_first(candidate_name_party,"\\("), "right")) %>%
+        mutate(candidate = trimws(str_before_first(candidate_name_party,"\\("), which = "both")) %>%
+        mutate(candidate = gsub("(^\\s+)|(\\s+$)", "", candidate)) %>%
         mutate(dist = replace(dist, dist == "", "State")) %>% 
         mutate(dist = replace(dist, dist == "AL", "At-Large")) %>%
         mutate(dist = as.factor(dist)) %>%
@@ -167,10 +167,50 @@ elections <- elections %>%
         droplevels()
 ```
 
+`rvest::html_table` takes the text from a website's table, but doesn't get hyperlinks to elements in the table. I scraped links to candidate websites to add them to the candidate name variable in the dataframe.
+
+Not all candidates in the CAWP list have a link and not all candidates that have links are from states (if they are from territories). The corresponding names are (re)scraped and these will be used to match the links back to the correct candidate in the `elections` dataframe. Rows missing state abbreviations will be removed (again).
+
+``` r
+candidate_names <- webpage %>%
+        html_nodes(xpath = "//td/a") %>% html_text()
+
+candidate_links <- webpage %>%
+        html_nodes(xpath = "//td/a") %>% html_attr("href")
+
+names_w_links <- as.data.frame(cbind(candidate_names, candidate_links)) %>%
+        subset(candidate_names != "") %>%
+        subset(candidate_links != "#list")
+        
+elections <- elections %>%
+        merge(names_w_links,
+              by.x = "Candidate", by.y = "candidate_names", all = TRUE) %>%
+        subset(State != "")
+```
+
+For candidates that do have a website to which CAWP links, mutate the `elections$Candidate` variable to combine urls with candidate names in HTML code, to render as clickable links in the `shiny` app. For candidates without a link, don't alter the `elections$Candidate` variable.
+
+``` r
+elections$candidate_links <- as.character(elections$candidate_links)
+
+for (x in 1:length(elections$Candidate)){
+ifelse(is.na(elections$candidate_links)[x], 
+       (elections$Candidate[x] <- elections$Candidate[x]), 
+       (elections$Candidate[x] <- paste0("<a href='", elections$candidate_links[x], "'target='_blank'>", elections$Candidate[x],"</a>"))
+        )
+}
+```
+
+Save the file.
+
+``` r
+saveRDS(elections, "elections.rds")
+```
+
 Make a dataframe for the map: select a subset of needed variables and remove duplicates so there is only one row per state. Rename and recode variables to be readable for the map's hover text: change abbreviation `state` and full name `State` from factor to character variables and change `NA` values to `0`.
 
 ``` r
-statedata <- elections[,c(1,11,15,18,19)] %>%
+statedata <- elections[,c(2,11,15,18,19)] %>%
         unique() %>%
         rename("Percent Democrat" = "percentdem") %>%
         rename("Percent Republican" = "percentrepub") %>%
@@ -210,6 +250,12 @@ statedata <- statedata %>%
 statedata[1,8] <- 1
 ```
 
+Save the file.
+
+``` r
+saveRDS(statedata, "statedata.rds")
+```
+
 Make color palette with gray to reperesent states with no women currently running and 5 colors ranging from the traditional American political party red (Republican) to blue (Democrat) to represent the bins for percent Republican/Democrat among women candidates per state.
 
 ``` r
@@ -220,7 +266,7 @@ The full `shiny` app code, including code for the `DT` section of the app, can b
 
 Make a `plotly` - based `statebins` - style map for use in a `shiny` app.
 
-The working `shiny` app can be found [here](https://jennylistman.shinyapps.io/Women_Candidates/).
+The working `shiny` app can be found [here](https://jennylistman.shinyapps.io/WomenCandidates/).
 
 ``` r
 y_Axis <- list(title = "",

@@ -3,8 +3,12 @@
 library(shiny)
 library(plotly)
 library(DT)
+library(shinythemes)
 
-source("global.R", local = TRUE)
+elections <- readRDS("elections.rds")
+statedata <- readRDS("statedata.rds")
+
+mapcolors <- c("#808080", "#B2182B", "#8D2B4B", "#693F6B", "#45528B", "#2166AC")
 
 columns <- c("State", "Candidate", "District", "Office", "Party")
 
@@ -54,9 +58,7 @@ ui <- fluidPage(theme = shinytheme("yeti"),
                                             p(a("R", href = "https://www.r-project.org", target = "_blank"),
                                               "code and details of data processing and visualization are available on",
                                               a("GitHub.", icon("github"), href = "https://github.com/JListman/Scrape_WomenRunning_CAWP", target = "_blank"),
-                                              "Find me,", a("Jenny Listman,",
-                                                      href = "https://twitter.com/jblistman", target = "_blank"),
-                                              "on", a("Twitter", icon("twitter"),
+                                              "Find me, Jenny Listman, on", a("Twitter", icon("twitter"),
                                                       href = "https://twitter.com/jblistman", target = "_blank"), "or",
                                               a("LinkedIn", icon("linkedin"), 
                                                 href = "https://www.linkedin.com/in/jenniferlistman/", target = "_blank")),
@@ -66,8 +68,8 @@ ui <- fluidPage(theme = shinytheme("yeti"),
                              )
                     ),
         tags$div(class="footer", checked=NA, tags$p("An interactive app to view data curated by the",
-                a("CAWP", href = "http://www.cawp.rutgers.edu")),
-                tags$p(a("View code",icon("github"), href = "https://github.com/JListman/Scrape_WomenRunning_CAWP"))
+                a("CAWP", href = "http://www.cawp.rutgers.edu", target = "_blank")),
+                tags$p(a("View code",icon("github"), href = "https://github.com/JListman/Scrape_WomenRunning_CAWP", target = "_blank"))
                  )
         )
 
@@ -124,7 +126,8 @@ server <- function(input, output) {
                 else
                         elections[elections$Party %in% input$Party & elections$State %in% input$State, columns]
                 
-        })
+        },
+        escape = FALSE)
         
 }
 
