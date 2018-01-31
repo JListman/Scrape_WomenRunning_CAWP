@@ -9,7 +9,9 @@ This project was created with data scraped from the website of the [Center for A
 
 The code scrapes and combines data from their lists of women candidates, cleans and creates new variables, and visualizes the data in an interactive `shiny` map and searchable data table using `plotly` and `DT` packages . **The [CAWP](http://www.cawp.rutgers.edu) states that their products or data are available for non-for-profit distribution as long as they are given credit (we are allowed to scrape their data table - thank you CAWP).**
 
-See the app in action [here](https://jennylistman.shinyapps.io/WomenCandidates/).
+See the app in action [here](https://jennylistman.shinyapps.io/WomenCandidates/). Read a blog about it [here](https://medium.com/@jblistman/an-app-to-search-for-women-running-for-office-in-2018-346f5a013ec9)
+
+The design of the app was inspired by the [adavis](https://gokhan.shinyapps.io/adavis/) app from Gokhan Ciflikli
 
 Load packages needed:
 
@@ -61,7 +63,7 @@ glimpse(candidate_tables[[1]])
 glimpse(candidate_tables[[2]])
 ```
 
-    ## Observations: 733
+    ## Observations: 734
     ## Variables: 8
     ## $ State                    <chr> "AK", "", "", "", "AL", "", "", "", "...
     ## $ Office                   <chr> "", "Lt. Gov.", "Lt. Gov.", "", "", "...
