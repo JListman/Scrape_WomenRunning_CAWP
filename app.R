@@ -13,7 +13,7 @@ mapcolors <- c("#808080", "#B2182B", "#8D2B4B", "#693F6B", "#45528B", "#2166AC")
 columns <- c("State", "Candidate", "District", "Office", "Party")
 
 ui <- fluidPage(theme = shinytheme("yeti"),
-        titlePanel("Women Running for Congress or State Office"),
+        titlePanel("Women Running for 2018 Congressional or State Office"),
         tabsetPanel(type = "tabs",
                     tabPanel("Map", align="center", plotlyOutput("statebins", width = "600px", height = "400px")),
                     tabPanel("Searchable Table",
@@ -41,7 +41,7 @@ ui <- fluidPage(theme = shinytheme("yeti"),
                     tabPanel("About",
                              fluidPage(
                                      column(10,
-                                            h3("An App to Search for Women Running for Congress or State Office"),
+                                            h3("An App to Search for Women Running for 2018 US Congressional or State Office"),
                                             p("I created this project to visualize a database maintained by the",
                                               a("Center for American Women in Politics",
                                                 href = "http://www.cawp.rutgers.edu", target = "_blank"), "at",
