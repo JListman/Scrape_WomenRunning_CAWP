@@ -15,7 +15,7 @@ columns <- c("State", "Candidate", "District", "Office", "Party")
 ui <- fluidPage(theme = shinytheme("yeti"),
         titlePanel("Women Running for 2018 Congressional or State Office"),
         tabsetPanel(type = "tabs",
-                    tabPanel("Map", align="center", plotlyOutput("statebins", width = "600px", height = "400px")),
+                    tabPanel("Map", align="center", plotlyOutput("statebins", width = "900px", height = "600px")),
                     tabPanel("Searchable Table",
                              fluidPage(
                              column(4,
@@ -99,7 +99,7 @@ server <- function(input, output) {
                                 colors = mapcolors,
                                 text = ~txt,
                                 symbol = I("square"), 
-                                size = I(35),
+                                size = I(50),
                                 hoverinfo = "text",
                                 showlegend = FALSE
                         ) %>%
