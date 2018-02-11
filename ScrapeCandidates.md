@@ -63,7 +63,7 @@ glimpse(candidate_tables[[1]])
 glimpse(candidate_tables[[2]])
 ```
 
-    ## Observations: 734
+    ## Observations: 750
     ## Variables: 8
     ## $ State                    <chr> "AK", "", "", "", "AL", "", "", "", "...
     ## $ Office                   <chr> "", "Lt. Gov.", "Lt. Gov.", "", "", "...
