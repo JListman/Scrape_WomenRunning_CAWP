@@ -48,13 +48,13 @@ Viewing the tables we've got a list with 2 elements corresponding to 2 of the 3 
 glimpse(candidate_tables[[1]])
 ```
 
-    ## Observations: 10
+    ## Observations: 9
     ## Variables: 8
-    ## $ State                    <chr> "AZ", "", "", "", "", "OH", "", "", "...
+    ## $ State                    <chr> "AZ", "", "", "", "", "OH", "", "", ""
     ## $ Office                   <chr> "", "U.S. Rep.", "U.S. Rep.", "U.S. R...
-    ## $ Dist.                    <int> NA, 8, 8, 8, NA, NA, 12, 12, 12, 12
+    ## $ Dist.                    <int> NA, 8, 8, 8, NA, NA, 12, 12, 12
     ## $ `Candidate Name & Party` <chr> "", "Brianna Westbrook (D)", "Hiral V...
-    ## $ `Seat Status`            <chr> "", "O", "O", "O", "", "", "O", "O", ...
+    ## $ `Seat Status`            <chr> "", "O", "O", "O", "", "", "O", "O", "O"
     ## $ `Filing\n\t\t\tDate`     <chr> "", "Filed", "Filed", "Filed", "", ""...
     ## $ `Primary\n\t\t\tDate`    <chr> "", "2/27/2018", "2/27/2018", "2/27/2...
     ## $ `Election\n\t\t\tDate`   <chr> "", "4/24/2018", "4/24/2018", "4/24/2...
@@ -63,7 +63,7 @@ glimpse(candidate_tables[[1]])
 glimpse(candidate_tables[[2]])
 ```
 
-    ## Observations: 750
+    ## Observations: 778
     ## Variables: 8
     ## $ State                    <chr> "AK", "", "", "", "AL", "", "", "", "...
     ## $ Office                   <chr> "", "Lt. Gov.", "Lt. Gov.", "", "", "...
@@ -124,6 +124,8 @@ elections$office <- fct_recode(elections$office,
                    `US Congressional Representative` = "U.S. Rep", `US Congressional Representative` = "U.S. Rep.",
                    `US Congressional Senator` = "U.S. Sen.")     
 ```
+
+    ## Warning: Unknown levels in `f`: Govenor, Land, U.S. Rep
 
 Candidate name and party affiliation are a single character variable. Separate these into two variables using `filestrings::str_elem` and `base::trimws`.
 
