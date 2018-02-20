@@ -103,33 +103,35 @@ elections <- candidate_tables[[2]] %>%
         mutate_each(funs(factor(.)),cols)
 ```
 
-Rename offices from abbreviations to full names. Some are not self-explanatory in their current state. In addition, some offices have more than one name/spelling/punctuation formatting (Comp, Comp., Comtr.) or have been misspelled.
+Rename offices from abbreviations to full names. Some are not self-explanatory in their current form (P.S.C). Some offices have more than one name/spelling/punctuation formatting (Comp, Comp., Comtr.) or have been misspelled (Govenor). These will have to be updated periodically as variants are introduced to the database.
 
 ``` r
 elections$office <- fct_recode(elections$office,
                    `Commissioner of Agriculture` = "Agriculture", `Commissioner of Agriculture` = "Comm. Agri.",
                    `Attorney General` = "At. Gen.",`Attorney General`= "Atty. Gen.",
-                   Auditor =  "Auditor",
+                   `State Auditor` =  "Auditor", 
+                   `State Auditor` = "St. Aud.",
                    `Chief Financial Officer` = "CFO",  
                    Comptroller = "Comp", Comptroller = "Comp.", Comptroller = "Comptr.",
                    Governor = "Govenor", Governor = "Governor",
                    `Insurance Commissioner` = "Insurance Comm.",
                    `Land Commissioner` = "Land",`Land Commissioner` = "Land Comm.",
                    `Lieutenant Governor` = "Lt. Gov.",
+                   `Public Service Commissioner` = "P.S.Comm.",
+                   `Public Service Commissioner` = "P.S.C.",
                    `Railroad Commissioner` = "Rail. Comm.",
-                   `Superintendent of Public Instruction` = "S.P.I.",
+                   `Superintendent of Public Instruction` = "S.P.I.", 
+                   `Superintendent of Public Instruction` = "Sup.Pub.Instr.",
                    `Secretary of State` = "Sec. St.",
                    `State Treasurer` = "St. Treas.",
                    `US Delegate` = "U.S. Del", `US Delegate` = "U.S. Del.",
-                   `US Congressional Representative` = "U.S. Rep", `US Congressional Representative` = "U.S. Rep.",
+                   `US Congressional Representative` = "U.S. Rep", `US Congressional Representative` = "U.S. Rep.", `US Congressional Representative` = "U.S Rep", `US Congressional Representative` = "U S. Rep",`US Congressional Representative` = "U.S Rep.",
                    `US Congressional Senator` = "U.S. Sen.")     
 ```
 
-    ## Warning: Unknown levels in `f`: Govenor, Land, U.S. Rep
-
 Candidate name and party affiliation are a single character variable. Separate these into two variables using `filestrings::str_elem` and `base::trimws`.
 
-Some candidates in Minnesota have party listed as DFL. According to [Wikkepedia](https://en.wikipedia.org/wiki/Minnesota_Democratic–Farmer–Labor_Party): Minnesota Democratic–Farmer–Labor Party (DFL) is a social liberal political party in Minnesota affiliated with the Democratic Party. Recode these candidates as Democrats.
+Some candidates in Minnesota have party listed as DFL. According to [Wikipedia](https://en.wikipedia.org/wiki/Minnesota_Democratic–Farmer–Labor_Party): Minnesota Democratic–Farmer–Labor Party (DFL) is a social liberal political party in Minnesota affiliated with the Democratic Party. Recode these candidates as Democrats.
 
 Territories that elect US Delegates and states with a small population that have one Federal Representative are listed as having district `AL`, to mean At-Large. Change district `AL` to `At-Large`. State-level offices have blanks for district variable. Change these to `State`.
 
@@ -260,7 +262,7 @@ Save the file.
 saveRDS(statedata, "statedata.rds")
 ```
 
-Make color palette with gray to reperesent states with no women currently running and 5 colors ranging from the traditional American political party red (Republican) to blue (Democrat) to represent the bins for percent Republican/Democrat among women candidates per state.
+Make color palette with gray to represent states with no women currently running and 5 colors ranging from the traditional American political party red (Republican) to blue (Democrat) to represent the bins for percent Republican/Democrat among women candidates per state.
 
 ``` r
 mapcolors <- c("#808080",get_palette(c("#b2182b","#2166ac"), 5))
