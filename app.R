@@ -13,6 +13,7 @@ mapcolors <- c("#808080", "#B2182B", "#8D2B4B", "#693F6B", "#45528B", "#2166AC")
 columns <- c("State", "Candidate", "District", "Office", "Party")
 
 ui <- fluidPage(theme = shinytheme("yeti"),
+                tags$head(includeScript("google_analytics.js")),
         titlePanel("Women Running for 2018 Congressional or State Office"),
         tabsetPanel(type = "tabs",
                     tabPanel("Map", align="center", plotlyOutput("statebins", width = "900px", height = "600px")),
@@ -51,7 +52,7 @@ ui <- fluidPage(theme = shinytheme("yeti"),
                                               a("a list", 
                                                 href = "http://cawp.rutgers.edu/buzz-2018-potential-women-candidates-us-congress-and-statewide-elected-executive",
                                                 target = "_blank"),
-                                              "of women potentially running for US Congress and State offices. The data are current as of 2/20/18."),
+                                              "of women potentially running for US Congress and State offices. The data are current as of 3/12/18."),
                                             p("You can read more about", a("how", href = "https://medium.com/@jblistman", target = "_blank"),
                                               "or", a("why", href = "https://medium.com/@jblistman/an-app-to-search-for-women-running-for-office-in-2018-346f5a013ec9", target = "_blank"), 
                                               "I created this app on my blog."),

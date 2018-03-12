@@ -56,14 +56,14 @@ glimpse(candidate_tables[[1]])
     ## $ `Candidate Name & Party` <chr> "", "Brianna Westbrook (D)", "Hiral V...
     ## $ `Seat Status`            <chr> "", "O", "O", "O", "", "", "O", "O", "O"
     ## $ `Filing\n\t\t\tDate`     <chr> "", "Filed", "Filed", "Filed", "", ""...
-    ## $ `Primary\n\t\t\tDate`    <chr> "", "2/27/2018", "2/27/2018", "2/27/2...
+    ## $ `Primary\n\t\t\tDate`    <chr> "", "Lost", "WON", "WON", "", "", "5/...
     ## $ `Election\n\t\t\tDate`   <chr> "", "4/24/2018", "4/24/2018", "4/24/2...
 
 ``` r
 glimpse(candidate_tables[[2]])
 ```
 
-    ## Observations: 778
+    ## Observations: 799
     ## Variables: 8
     ## $ State                    <chr> "AK", "", "", "", "AL", "", "", "", "...
     ## $ Office                   <chr> "", "Lt. Gov.", "Lt. Gov.", "", "", "...
@@ -89,8 +89,10 @@ On the [CAWP website database](http://cawp.rutgers.edu/buzz-2018-potential-women
 
 Remove special characters such as \* with `filesstrings::trim_anything` and remove all blank rows.
 
+Remove candidates who lost their Party's Primary. This step was added in after Primaries began.
+
 ``` r
-cols <- c(1,5)
+cols <- c(1,2)
 
 elections <- candidate_tables[[2]] %>%
         clean_names() %>%
@@ -98,23 +100,29 @@ elections <- candidate_tables[[2]] %>%
         bind_rows(special_elec) %>%
         mutate(state = replace(state, state == "", NA)) %>%
         transform(state = na.locf(state)) %>%
+        subset(primary_date != "Lost") %>%
         subset(office != "") %>% 
         mutate(office = trim_anything(office, "*", "right")) %>%
-        mutate_each(funs(factor(.)),cols)
+        mutate_each_(funs(factor(.)),cols)
 ```
 
-Rename offices from abbreviations to full names. Some are not self-explanatory in their current form (P.S.C). Some offices have more than one name/spelling/punctuation formatting (Comp, Comp., Comtr.) or have been misspelled (Govenor). These will have to be updated periodically as variants are introduced to the database.
+Rename offices from abbreviations to full names. Some are not self-explanatory in their current form (P.S.C). Some offices have more than one name/spelling/punctuation formatting (Comp, Comp., Comtr.) or have been misspelled (Govenor).
+
+These will have to be updated periodically as variants are introduced to the database. Every time the website is re-scraped, check the `levels` for the variable `elections$office` to identify additional misspellings or abbreviations that have been introduced and then add them to the next code block.
 
 ``` r
+levels(elections$office)
+
 elections$office <- fct_recode(elections$office,
                    `Commissioner of Agriculture` = "Agriculture", `Commissioner of Agriculture` = "Comm. Agri.",
                    `Attorney General` = "At. Gen.",`Attorney General`= "Atty. Gen.",
                    `State Auditor` =  "Auditor", 
-                   `State Auditor` = "St. Aud.",
+                   `State Auditor` = "St. Aud.", `State Auditor` = "St. Auditor",
                    `Chief Financial Officer` = "CFO",  
                    Comptroller = "Comp", Comptroller = "Comp.", Comptroller = "Comptr.",
                    Governor = "Govenor", Governor = "Governor",
-                   `Insurance Commissioner` = "Insurance Comm.",
+                   `Insurance Commissioner` = "Insurance Comm.", `Insurance Commissioner` = "Ins. Comm.",
+                   `Labor Commissioner` = "Labor Comm.",
                    `Land Commissioner` = "Land",`Land Commissioner` = "Land Comm.",
                    `Lieutenant Governor` = "Lt. Gov.",
                    `Public Service Commissioner` = "P.S.Comm.",
@@ -362,7 +370,7 @@ ui <- fluidPage(theme = shinytheme("yeti"),
                                               a("a list", 
                                                 href = "http://cawp.rutgers.edu/buzz-2018-potential-women-candidates-us-congress-and-statewide-elected-executive",
                                                 target = "_blank"),
-                                              "of women potentially running for US Congress and State offices. The data are current as of 2/5/18."),
+                                              "of women potentially running for US Congress and State offices. The data are current as of 3/12/18."),
                                             p("You can read more about", a("how", href = "https://medium.com/@jblistman", target = "_blank"),
                                               "or", a("why", href = "https://medium.com/@jblistman/an-app-to-search-for-women-running-for-office-in-2018-346f5a013ec9", target = "_blank"), 
                                               "I created this app on my blog."),
