@@ -63,7 +63,7 @@ glimpse(candidate_tables[[1]])
 glimpse(candidate_tables[[2]])
 ```
 
-    ## Observations: 799
+    ## Observations: 819
     ## Variables: 8
     ## $ State                    <chr> "AK", "", "", "", "AL", "", "", "", "...
     ## $ Office                   <chr> "", "Lt. Gov.", "Lt. Gov.", "", "", "...
@@ -114,27 +114,44 @@ These will have to be updated periodically as variants are introduced to the dat
 levels(elections$office)
 
 elections$office <- fct_recode(elections$office,
-                   `Commissioner of Agriculture` = "Agriculture", `Commissioner of Agriculture` = "Comm. Agri.",
-                   `Attorney General` = "At. Gen.",`Attorney General`= "Atty. Gen.",
+                   `Commissioner of Agriculture` = "Agriculture", 
+                   `Commissioner of Agriculture` = "Comm. Agri.",
+                   `Attorney General` = "At. Gen.",
+                   `Attorney General`= "Atty. Gen.",
                    `State Auditor` =  "Auditor", 
-                   `State Auditor` = "St. Aud.", `State Auditor` = "St. Auditor",
+                   `State Auditor` = "St. Aud.", 
+                   `State Auditor` = "St. Auditor",
                    `Chief Financial Officer` = "CFO",  
-                   Comptroller = "Comp", Comptroller = "Comp.", Comptroller = "Comptr.",
-                   Governor = "Govenor", Governor = "Governor",
-                   `Insurance Commissioner` = "Insurance Comm.", `Insurance Commissioner` = "Ins. Comm.",
+                   Comptroller = "Comp", 
+                   Comptroller = "Comp.", 
+                   Comptroller = "Comptr.",
+                   Governor = "Govenor", 
+                   Governor = "Governor",
+                   `Insurance Commissioner` = "Insurance Comm.", 
+                   `Insurance Commissioner` = "Ins. Comm.",
                    `Labor Commissioner` = "Labor Comm.",
-                   `Land Commissioner` = "Land",`Land Commissioner` = "Land Comm.",
-                   `Lieutenant Governor` = "Lt. Gov.",
+                   `Land Commissioner` = "Land",
+                   `Land Commissioner` = "Land Comm.",
+                   `Lieutenant Governor` = "Lt. Gov.", 
+                   `Lieutenant Governor` = "Lt. Governor",
                    `Public Service Commissioner` = "P.S.Comm.",
                    `Public Service Commissioner` = "P.S.C.",
                    `Railroad Commissioner` = "Rail. Comm.",
                    `Superintendent of Public Instruction` = "S.P.I.", 
                    `Superintendent of Public Instruction` = "Sup.Pub.Instr.",
+                   `Superintendent of Public Instruction` =  "Sup. Pub. Instr.",
+                   `Superintendent of Public Instruction` = "Sup. Public Instr.",
+                   `Superintendent of Public Instruction` = "Sup.Pub. Instr.",
                    `Secretary of State` = "Sec. St.",
                    `State Treasurer` = "St. Treas.",
-                   `US Delegate` = "U.S. Del", `US Delegate` = "U.S. Del.",
-                   `US Congressional Representative` = "U.S. Rep", `US Congressional Representative` = "U.S. Rep.", `US Congressional Representative` = "U.S Rep", `US Congressional Representative` = "U S. Rep",`US Congressional Representative` = "U.S Rep.",
-                   `US Congressional Senator` = "U.S. Sen.")     
+                   `US Delegate` = "U.S. Del", 
+                   `US Delegate` = "U.S. Del.",
+                   `US Congressional Representative` = "U.S. Rep", 
+                   `US Congressional Representative` = "U.S. Rep.", 
+                   `US Congressional Representative` = "U.S Rep", 
+                   `US Congressional Representative` = "U S. Rep",
+                   `US Congressional Representative` = "U.S Rep.",
+                   `US Congressional Senator` = "U.S. Sen.")  
 ```
 
 Candidate name and party affiliation are a single character variable. Separate these into two variables using `filestrings::str_elem` and `base::trimws`.
