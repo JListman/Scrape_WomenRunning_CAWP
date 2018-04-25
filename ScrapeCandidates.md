@@ -57,13 +57,13 @@ glimpse(candidate_tables[[1]])
     ## $ `Seat Status`            <chr> "", "O", "O", "O", "", "", "O", "O", "O"
     ## $ `Filing\n\t\t\tDate`     <chr> "", "Filed", "Filed", "Filed", "", ""...
     ## $ `Primary\n\t\t\tDate`    <chr> "", "Lost", "WON", "WON", "", "", "5/...
-    ## $ `Election\n\t\t\tDate`   <chr> "", "4/24/2018", "4/24/2018", "4/24/2...
+    ## $ `Election\n\t\t\tDate`   <chr> "", "", "Lost", "WON", "", "", "8/7/2...
 
 ``` r
 glimpse(candidate_tables[[2]])
 ```
 
-    ## Observations: 837
+    ## Observations: 859
     ## Variables: 8
     ## $ State                    <chr> "AK", "", "", "", "AL", "", "", "", "...
     ## $ Office                   <chr> "", "Lt. Gov.", "Lt. Gov.", "", "", "...
@@ -91,6 +91,8 @@ Remove special characters such as \* with `filesstrings::trim_anything` and remo
 
 Remove candidates who lost their Party's Primary. This step was added in after Primaries began.
 
+Remove candidates whose election date has passed, whether they won or lost. This step was added in after special elections began.
+
 ``` r
 cols <- c(1,2)
 
@@ -101,6 +103,8 @@ elections <- candidate_tables[[2]] %>%
         mutate(state = replace(state, state == "", NA)) %>%
         transform(state = na.locf(state)) %>%
         subset(primary_date != "Lost") %>%
+        subset(election_date != "WON") %>%
+        subset(election_date != "Lost") %>%
         subset(office != "") %>% 
         mutate(office = trim_anything(office, "*", "right")) %>%
         mutate_each_(funs(factor(.)),cols)
@@ -114,11 +118,13 @@ These will have to be updated periodically as variants are introduced to the dat
 levels(elections$office)
 
 elections$office <- fct_recode(elections$office,
+                   `Corporation Commissioner` = "Corp. Comm.",     
                    `Commissioner of Agriculture` = "Agriculture", 
                    `Commissioner of Agriculture` = "Comm. Agri.",
                    `Attorney General` = "At. Gen.",
                    `Attorney General`= "Atty. Gen.",
                    `State Auditor` =  "Auditor", 
+                   `State Auditor` =  "st. Auditor", 
                    `State Auditor` = "St. Aud.", 
                    `State Auditor` = "St. Auditor",
                    `Chief Financial Officer` = "CFO",  
@@ -128,6 +134,7 @@ elections$office <- fct_recode(elections$office,
                    Governor = "Govenor", 
                    Governor = "Governor",
                    `Insurance Commissioner` = "Insurance Comm.", 
+                   `Insurance Commissioner` = "Insur. Comm.",
                    `Insurance Commissioner` = "Ins. Comm.",
                    `Labor Commissioner` = "Labor Comm.",
                    `Land Commissioner` = "Land",
@@ -137,13 +144,15 @@ elections$office <- fct_recode(elections$office,
                    `Public Service Commissioner` = "P.S.Comm.",
                    `Public Service Commissioner` = "P.S.C.",
                    `Railroad Commissioner` = "Rail. Comm.",
-                   `Superintendent of Public Instruction` = "S.P.I.", 
+                   `Superintendent of Public Instruction` = "S.P.I.",
+                   `Superintendent of Public Instruction` = "Sup.Pub.Inst.", 
                    `Superintendent of Public Instruction` = "Sup.Pub.Instr.",
                    `Superintendent of Public Instruction` =  "Sup. Pub. Instr.",
                    `Superintendent of Public Instruction` = "Sup. Public Instr.",
                    `Superintendent of Public Instruction` = "Sup.Pub. Instr.",
                    `Secretary of State` = "Sec. St.",
                    `State Treasurer` = "St. Treas.",
+                   `Tax Commissioner` = "Tax Comm.", 
                    `US Delegate` = "U.S. Del", 
                    `US Delegate` = "U.S. Del.",
                    `US Congressional Representative` = "U.S. Rep", 
@@ -151,7 +160,9 @@ elections$office <- fct_recode(elections$office,
                    `US Congressional Representative` = "U.S Rep", 
                    `US Congressional Representative` = "U S. Rep",
                    `US Congressional Representative` = "U.S Rep.",
-                   `US Congressional Senator` = "U.S. Sen.")  
+                   `US Congressional Representative` = "U. S. Rep.", 
+                   `US Congressional Senator` = "U.S. Sen.", 
+                   `US Congressional Senator` = "U.S. Senator")  
 ```
 
 Candidate name and party affiliation are a single character variable. Separate these into two variables using `filestrings::str_elem` and `base::trimws`.
@@ -165,7 +176,8 @@ elections <- elections %>%
         mutate(party = str_elem(candidate_name_party, -2)) %>%
         mutate(party = replace(party, party == "L", "D")) %>% 
         mutate(party = as.factor(party)) %>%
-        mutate(candidate = trimws(str_before_first(candidate_name_party,"\\("), which = "both")) %>%
+        mutate(candidate = trimws(str_before_first(candidate_name_party,"\\("), 
+                                  which = "both")) %>%
         mutate(candidate = gsub("(^\\s+)|(\\s+$)", "", candidate)) %>%
         mutate(dist = replace(dist, dist == "", "State")) %>% 
         mutate(dist = replace(dist, dist == "AL", "At-Large")) %>%
@@ -227,7 +239,9 @@ elections$candidate_links <- as.character(elections$candidate_links)
 for (x in 1:length(elections$Candidate)){
 ifelse(is.na(elections$candidate_links)[x], 
        (elections$Candidate[x] <- elections$Candidate[x]), 
-       (elections$Candidate[x] <- paste0("<a href='", elections$candidate_links[x], "'target='_blank'>", elections$Candidate[x],"</a>"))
+       (elections$Candidate[x] <- paste0("<a href='", 
+                                         elections$candidate_links[x], "'target='_blank'>",
+                                         elections$Candidate[x],"</a>"))
         )
 }
 ```
