@@ -140,6 +140,7 @@ elections$office <- fct_recode(elections$office,
                    `Land Commissioner` = "Land",
                    `Land Commissioner` = "Land Comm.",
                    `Lieutenant Governor` = "Lt. Gov.", 
+                   `Lieutenant Governor` = "Lt. Gov",  
                    `Lieutenant Governor` = "Lt. Governor",
                    `Public Service Commissioner` = "P.S.Comm.",
                    `Public Service Commissioner` = "P.S.C.",
@@ -151,6 +152,7 @@ elections$office <- fct_recode(elections$office,
                    `Superintendent of Public Instruction` = "Sup. Public Instr.",
                    `Superintendent of Public Instruction` = "Sup.Pub. Instr.",
                    `Secretary of State` = "Sec. St.",
+                   `State Treasurer` = "Treasurer",
                    `State Treasurer` = "St. Treas.",
                    `Tax Commissioner` = "Tax Comm.", 
                    `US Delegate` = "U.S. Del", 
@@ -163,6 +165,7 @@ elections$office <- fct_recode(elections$office,
                    `US Congressional Representative` = "U. S. Rep.", 
                    `US Congressional Senator` = "U.S. Sen.", 
                    `US Congressional Senator` = "U.S. Senator")  
+
 ```
 
 Candidate name and party affiliation are a single character variable. Separate these into two variables using `filestrings::str_elem` and `base::trimws`.
