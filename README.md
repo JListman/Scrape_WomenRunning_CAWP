@@ -5,7 +5,7 @@ This project was created with data scraped from the website of the [Center for A
 The code scrapes and combines data from their lists of women candidates, creates new variables, and visualizes the data in an interactive `shiny` map and searchable data table using `plotly` and `DT` packages .
 
 See the app in action [here](https://jennylistman.shinyapps.io/WomenCandidates/) and read a blog post about it [here](https://medium.com/@jblistman/an-app-to-search-for-women-running-for-office-in-2018-346f5a013ec9).  
-Data included in the app are up to date as of 5/21/2017.
+Data included in the app are up to date as of 6/4/2017.
 
 Read more about my work on my [website](https://jenny-listman.netlify.com).
 
